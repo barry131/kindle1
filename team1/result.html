@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>30min夜读计划</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="css/sty.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css"   media="screen and (min-width: 321px) and (max-width: 480px)" href="css/sty480.css">
+<link rel="stylesheet" media="screen and (max-width: 320px)" href="css/sty320.css" />
+</head>
+
+<body class="choices">
+
+
+    <header class="loadingheader">
+        <img src="images/logo.png">
+        <!-- <img src="images/radio.png"> -->
+    </header>
+
+    <div class="wrapcon" style="opacity: 1">
+        <div class="wrap" id="wrap">
+            <div class="wrapcontent">
+            
+                <div class="warpbg">
+                    <img src="images/res_bg.jpg">
+                </div>
+
+                <div class="res_top"><img src="images/res_top.png"></div>
+
+            </div>
+
+            <div class="res_btn">                
+                <img src="images/res_btn.png" >
+                <img src="images/res_cri.png" class="btnrote scale">
+            </div>
+
+            <div class="page4-main" style="bottom:0;">
+                <img src="images/head.jpg" class="res_headpic">
+                <div class="page4topbtn" style="display: block;">
+                    <a href="javascript:;" class="btn_tip space" style="display: none;">取消提醒</a>
+                    <a href="javascript:;" class="btn_msg space">活动简介</a>
+                </div>
+                <div class="footertop" id="join">
+                    <div class="page4-title res_title space">
+                        @小凡与<span>56897</span>人开启夜读之旅<br />邀你一起加入
+                    </div>
+                    <div class="res_text space">
+                        他已坚持夜读<br />
+                        <p>46<span>/天</span></p><br />
+                        <i></i><br />
+                        知识财富增长超越了小伙伴<br />
+                        <p class="per">90<span>%</span></p>
+                    </div>
+                </div>
+                <div class="footertop" id="joinewm" style="display: none;">
+                    <div class="page4-title res_title space">
+                        已有<span>563298</span>个爱书人在这里等你<br />扫描二维码加入我们！
+                    </div>
+                    <div class="res_text">
+                        <img src="images/ewm.jpg">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!--start弹出框-->
+    <div class="popu-main" style="display: none;">
+        <div class="popu-main-zj" style="display:none">
+            <a href="javascript:;" class="btn_close"><img src="images/close_pic.png"></a>
+            <p>
+                <span>活动介绍</span><br />
+                即日起，每天19:00-0:00，签到打卡，每天抽出30分钟，加入夜读行动，点滴积累成就不一样的自己！<br />
+                参与活动将每日收到签到提醒，签到页面可设置或取消提醒服务。
+            </p>
+        </div>
+        <div class="popu-main-box" style="display: none;">
+            <div class="popu-box-zi">
+                是否关闭夜读消息提醒？<br>
+                关闭后将不再受到阅读提醒信息
+            </div>
+            <div class="popu-box-btn">
+                <a href="javascript:;" class="btn_no">否</a>
+                <a href="javascript:;" class="btn_yes">是</a>
+            </div>
+        </div>
+    </div>
+    <!--end弹出框-->
+    
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script>
+        /*弹出框*/
+        function popu(p){
+            if(p==1){
+                $('.popu-main').fadeIn();
+                $('.popu-main-zj').show();
+            }else if(p==2){
+                $('.popu-main').fadeIn();
+                $('.popu-main-box').show();
+            }else{
+                $('.popu-main').fadeOut();
+                $('.popu-main-zj').hide();
+                $('.popu-main-box').hide();
+            }
+        }
+        $('.btn_msg').click(function(){
+            popu(1);
+        })
+        $('.btn_close').click(function(){
+            popu(0);
+        })
+
+        /*加入*/
+        function joinfun(n){
+            if(n==1){
+                $('#join').hide();
+                $('#joinewm').show();
+                $('.res_btn').hide();
+            }else{
+                window.location='index.html';
+            }
+        }
+        $('.res_btn').click(function(){
+            joinfun(1)
+        })
+    </script>
+</body>
+</html>

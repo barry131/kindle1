@@ -1,0 +1,23 @@
+body{
+}
+/*苹果4之类的屏幕尺寸*/
+@media screen and (max-height: 420px){
+
+}
+
+/*420到500之类的屏幕尺寸  苹果5*/
+@media screen and (min-height: 421px) and (max-height:505px){
+	.index-text p{
+		font-size: 1.2rem;
+	}
+	.index-text{
+		width: 60%;
+	}
+	.page2{
+		width: 90%;
+		left: 5%;
+	}
+	.res_text{
+		padding: 1rem 0 9rem;
+	}
+}
