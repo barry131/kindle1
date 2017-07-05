@@ -1,0 +1,93 @@
+body{
+    font-size: 12px;
+}
+/*苹果4之类的屏幕尺寸*/
+@media screen and (max-height: 420px){
+.mobile_banner_tu ul{
+	width:70%;
+	margin:auto 15%;
+	font-size:0.9em;
+}
+.mobile_banner_xz h2{
+	font-size:1em;
+	line-height:1.6em;
+}
+.mobile_banner_xz p{
+	font-size:0.7em;
+}
+.mobile_downs{
+	bottom:6%;
+}
+.app_xz_zii{
+	margin:5% 0 8% 0;
+}
+.app_xz_zii p{
+	margin-bottom:-5%;
+}
+.mobile_banner_pic img:nth-child(1){
+	margin-top: -30%;
+}
+.app_xz_zii h2 {
+	font-size: 1.8em;
+	line-height: 0.6em;
+}
+.app_xz_zii span{
+	margin-bottom: -8%;
+}
+.zii_pic{
+	width:87%;
+}
+.shopping_main{
+	top:12%;
+}
+.cn_left_wz{
+	line-height:1.2em;
+}
+.mobile_left_zj{
+	padding-top:15%;
+}
+.cn_left_top span{
+	font-size:0.5em;
+}
+}
+/*420到500之类的屏幕尺寸*/
+@media screen and (max-width: 320px) and (max-height:505px){
+body{ font-size:14px;}
+.nav_dh a{
+	padding-left:2%;
+	padding-right:2%;
+}
+.head_right_ico{
+	width:8%;
+	padding-top:10%;
+}
+.nav_dh{
+	width:98%;
+}
+.mobile_list_zi h2{
+	font-size:0.9em;
+}
+.mobile_list_zi p{
+	font-size:0.65em;
+}
+.mobile_list_zi2{
+	width:90%;
+}
+.mobile_list_zi2 h2{
+	font-size:0.85em;
+}
+.access_main ul li a b{
+	font-size:0.7em;
+}
+.head_left{
+	padding-top:20px;
+	padding-bottom:15px;
+}
+.cn_left_wz{
+	line-height:1.5em;
+}
+.mobile_js span{
+	font-size:0.7em;
+	top:5px;
+}
+}

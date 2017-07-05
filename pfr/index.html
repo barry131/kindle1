@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+<title>阅读就是魅力</title>
+<!-- Bootstrap -->
+<link href="css/sty.css" rel="stylesheet">
+<link rel="stylesheet" href="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/css/jquery.fullPage.css">
+<script src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/js/jquery-1.8.3.min.js"></script>
+<script src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/js/jquery.fullPage.min.js"></script>
+<script src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/js/kindlecn.js"></script>
+<script>
+$(function(){
+    $('.selid').fullpage({
+        verticalCentered: false,
+        anchors: ['pages1', 'pages2', 'pages3', 'pages4', 'pages5', 'pages6'],
+        navigation: true,
+        navigationTooltips: [],
+        'afterLoad': function(anchorLink, index){
+            if(index == 5){
+                $('#imgParent').addClass($('#imgParent').attr('id'));
+                $('#imgParent li').each(function(i){
+                    $(this).addClass($(this).attr('id'));
+                })
+            }else{
+                $('#imgParent').removeClass($('#imgParent').attr('id'));
+                $('#imgParent li').each(function(i){
+                    $(this).removeClass($(this).attr('id'));
+                })
+            }
+        },
+    });
+})
+</script>
+</head>
+<body>
+<div class="selid">
+    <!--第一页-->
+    <div class="page1 section section1" >
+        <div class="nav">
+            <!--左右轮播1-->
+            <div class="banner_pic banner_p" id="banner_tu">
+                <div class="head_left">
+                    <!-- <a class="book" href="http://www.amazon.cn/b/ref=kd_we_pfr_pc_book?ie=UTF8&node=116169071" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo.png"></a> -->
+                    <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo.png">
+                </div>
+                <div class="head_right">
+                    <!-- <a class="kpw3" href="http://www.amazon.cn/gp/product/B00QJDOLIO/ref=kd_we_pfr_pc_kpw3" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo.png"></a> -->
+                    <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo.png">
+                </div>
+                <div class="word">
+                    <h1>返璞归真</h1>
+                    <h2>让阅读变得纯粹</h2>
+                    <p>超过20万本海量电子书库，品质甄选<br>内置字典，笔记等多种阅读工具</p>
+                </div>
+                <div class="banner_play">
+                    <a class="pl1" href="javascript:void(0)"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/or_play_1.png"></a>
+                    <span>................</span>
+                    <a href="javascript:void(0)"><p class="p1" id="p11">2</p></a>
+                    <a href="javascript:void(0)"><p class="p2" id="p12">3</p></a>
+                </div>
+                <div class="below_right1 below_right" >
+                    <div class="case">
+                        <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/word_1.png">
+                    </div>
+                    <div class="kin_pic">
+                        <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/kin_1.png">
+                    </div>
+                </div>
+            </div>
+            <!--左右轮播2-->
+            <div class="banner_pic2 banner_p" id="banner_tu2">
+                <div class="head_left">
+                    <!-- <a class="book" href="http://www.amazon.cn/b/ref=kd_we_pfr_pc_book?ie=UTF8&node=116169071" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo2.png"></a> -->
+                    <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo2.png">
+                </div>
+
+                <div class="head_right">
+                    <!-- <a class="kpw3" href="http://www.amazon.cn/gp/product/B00QJDOLIO/ref=kd_we_pfr_pc_kpw3" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo2.png"></a> -->
+                    <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo2.png">
+                </div>
+
+                <div class="word2">
+                    <h1>从此</h1>
+                    <h2>让双眸不分昼夜的享受阅读</h2>
+                    <p>300ppi超清晰显示屏，完美还原纸书阅读体验<br>内置阅读灯随意调节亮度，舒适护眼</p>
+                </div>
+
+                <div class="banner_play2">
+                    <a class="pl2" href="javascript:void(0)"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/w_play_2.png"></a>
+                    <span>................</span>
+                    <a href="javascript:void(0)"><p class="p1" id="p21">3</p></a>
+                    <a href="javascript:void(0)"><p class="p2" id="p22">1</p></a>
+                </div>
+
+                <div class="below_right2 below_right">
+                    <div class="case">
+                    	<img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/word_1.png">
+                    </div>
+                    <div class="kin_pic">
+                    	<img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/kin_2.png">
+                    </div>
+                </div>
+
+            </div>
+            <!--左右轮播3-->
+            <div class="banner_pic3 banner_p" id="banner_tu3">
+                  <div class="head_left">
+                        <!-- <a class="book" href="http://www.amazon.cn/b/ref=kd_we_pfr_pc_book?ie=UTF8&node=116169071" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo.png"></a> -->
+                        <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo.png">
+                  </div>
+                  <div class="head_right">
+                        <!-- <a class="kpw3" href="http://www.amazon.cn/gp/product/B00QJDOLIO/ref=kd_we_pfr_pc_kpw3" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo.png"></a> -->
+                        <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo.png">
+                  </div>
+                  <div class="word3">
+                        <h1>阅读</h1>
+                        <h2>让行万里路更具魅力</h2>
+                        <p>一次充电可维持数周阅读<br>超大容量，千书随行<br>轻巧机身，易于携带</p>
+                  </div>
+                  <div class="banner_play3">
+                        <a class="pl3" href="javascript:void(0)"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/w_play_2.png"></a>
+                        <span>................</span>
+                        <a href="javascript:void(0)"><p class="p1" id="p31">1</p></a>
+                        <a href="javascript:void(0)"><p class="p2" id="p32">2</p></a>
+                  </div>
+                  <div class="below_right3 below_right">
+                        <div class="case">
+                        	<img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/word_1.png">
+                        </div>
+                        <div class="kin_pic">
+                        	<img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/kin_3.png">
+                        </div>
+                  </div>
+            </div>
+                  <div class="video1">
+                        <video track="bofang" trackTags="click" trackTitle="" src="http://7xi7e1.com1.z0.glb.clouddn.com/kindle_mv.mp4" controls></video>
+                        <div class="cls1">
+                        	<a href="javascript:void(0)">X</a>
+                        </div>
+                  </div>
+        </div>
+    </div>
+    <!--第二页-->
+    <div class="page2 section section2">
+        <div class="head_left">
+            <!-- <a class="book" href="http://www.amazon.cn/b/ref=kd_we_pfr_pc_book?ie=UTF8&node=116169071" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo2.png"></a> -->
+            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo2.png">
+        </div>
+        <div class="head_right">
+            <!-- <a class="kpw3" href="http://www.amazon.cn/gp/product/B00QJDOLIO/ref=kd_we_pfr_pc_kpw3" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo2.png"></a> -->
+            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo2.png">
+        </div>
+        <div class="page2_pic">
+            <div class="daytime">
+                <div class="pght">
+                      <img class="page2_imgs" src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/day.jpg" alt="">
+                      <div class="page2_center">
+                            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/night_kin1.png">
+                      </div>
+                      <div class="left_word">
+                            <h2>返璞归真就是魅力</h2>
+                            <p>白天感受纯粹<br>300PPI新一代电子墨水屏<br>完美还原纸书阅读体验</p>
+                      </div>
+                </div>
+             </div>
+            <div class="nighttime">
+                <img  class="page2_imgs" src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/night.jpg" alt="">
+                  <div class="page2_center">
+                        <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/night_kin.png">
+                  </div>
+                  <div class="rights_word">
+                        <h2>返璞归真就是魅力</h2>
+                        <p>黑夜体验细致<br>内置阅读灯  随意调节亮度</p>
+                  </div>
+             </div>
+              <div class="below_shadow clearfix">
+                <div class="below_shadowss"></div>
+                  <div class="below_shadows">
+                       <div class="day">
+                            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/day.png" alt="">
+                            <!-- <p>昼</p> -->
+                        </div>
+                        <div class="line">
+                            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/night_line.png">
+                            <div id="cir" class="cir">
+                                <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/night_circle.png">
+                            </div>
+                        </div>
+                        <div class="night">
+                            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/nig.png" alt="">
+                            <!-- <p>夜</p> -->
+                        </div>
+                        <div class="shadow_word">
+                            <p>滑动调节昼、夜模式</p>
+                        </div>
+                  </div>
+                   
+              </div>
+        </div>
+    </div>
+    <!--第三页-->
+    <div class="page3 section section3">
+        <div class="head_left">
+            <!-- <a class="book" href="http://www.amazon.cn/b/ref=kd_we_pfr_pc_book?ie=UTF8&node=116169071" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo2.png"></a> -->
+            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo2.png">
+        </div>
+        <div class="head_right">
+            <!-- <a class="kpw3" href="http://www.amazon.cn/gp/product/B00QJDOLIO/ref=kd_we_pfr_pc_kpw3" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo2.png"></a> -->
+            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo2.png">
+        </div>
+        <div class="page2_center">
+            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/center_kin.png">
+        </div>
+        <div class="sm_line">
+        	<a class="im_3" href="javascript:void(0)"><img id="lineId" src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/line_1.png"></a>
+        </div>
+        <div class="line_word">
+            <ul>
+                <li style="display:none;"><p class="co"></p></li>
+                <li><a href="javascript:void(0)"><p class="co">北京的日出</p></a></li>
+                <li><a href="javascript:void(0)"><p class="co">巴沙的蓝天</p></a></li>
+                <li><a href="javascript:void(0)"><p class="co">巴黎的日落</p></a></li>
+                <li><a href="javascript:void(0)"><p class="co">米兰的夜空</p></a></li>
+            </ul>
+        </div>
+        <div class="page3_pic" id="pa1">
+            <div class="bei_left_word">
+                <div class="change_word">
+                    <h1>北京日出</h1>
+                </div>
+                <h2>BEJING SUNRISE</h2>
+                <p>长久陪伴就是魅力<br>超长数周续航 让千书轻巧随行</p>
+            </div>
+        </div>
+
+        <div class="page3_pic2" id="pa2">
+            <div class="bassa_left_word">
+                <div class="change_word">
+                    <h1>巴沙的蓝天</h1>
+                </div>
+                <h2>BASHA BLUE SKY</h2>
+                <p>长久陪伴就是魅力<br>超长数周续航 让千书轻巧随行</p>
+            </div>
+        </div>
+        
+        
+        <div class="page3_pic3" id="pa3">
+            <div class="paris_left_word">
+                <div class="change_word">
+                    <h1>巴黎的日落</h1>
+                </div>
+                <h2>PARIS SUNSET</h2>
+                <p>长久陪伴就是魅力<br>超长数周续航 让千书轻巧随行</p>
+            </div>
+        </div>
+
+        <div class="page3_pic4" id="pa4">
+            <div class="milan_left_word">
+                <div class="change_word">
+                    <h1>米兰的夜空</h1>
+                </div>
+                <h2>MILAN'S NIGHT sky</h2>
+                <p>长久陪伴就是魅力<br>超长数周续航 让千书轻巧随行</p>
+            </div>
+        </div>
+        <div class="glass">
+        	<img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/big_1.png">
+        </div>
+        <div class="shadow_words">
+            <p>点击文字进行地点穿越</p>
+        </div>
+    </div>
+    <!--第四页-->
+    <div class="page4 section section4">
+        <div class="head_left">
+            <!-- <a class="book" href="http://www.amazon.cn/b/ref=kd_we_pfr_pc_book?ie=UTF8&node=116169071" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo2.png"></a> -->
+            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo2.png">
+        </div>
+        <div class="head_right">
+            <!-- <a class="kpw3" href="http://www.amazon.cn/gp/product/B00QJDOLIO/ref=kd_we_pfr_pc_kpw3" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo2.png"></a> -->
+            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo2.png">
+        </div>
+        <div class="page4_pic">
+            <div class="wordbook">
+                <div class="wb_center">
+                    <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/dic_2.png">
+                </div>
+                <div class="change_bok">
+                    <ul>
+                        <li><img id="imgId" src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/di_1.png" style="display:block;"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wb_left">
+                <h1>游刃有余就是魅力</h1>
+                <p>内存翻倍<i></i>多种内置阅读工具<br>让阅读更流畅</p>
+            </div>
+            <div class="wb_line">
+                <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/book_line.png">
+                <!--<div class="wb_dot">
+                    <a href="javascript:void(0)"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/cr_circle.png"></a>
+                </div>-->
+                <!--<div class="wb_word">
+                  <p>字典</p> 
+               </div>-->
+            </div>
+                <div class="linewb_word">
+                    <ul>
+                        <li><a href="javascript:void(0)">内置字典</a></li>
+                        <li><a href="javascript:void(0)">生词提示</a></li>
+                        <li><a href="javascript:void(0)">添加笔记</a></li>
+                        <!--<li><a href="javascript:void(0)">分享笔记</a></li>-->
+                    </ul>
+                    <!--<div class="wb_shadow">
+                        <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/book_shadow.png">
+                    </div>-->
+                </div>
+            </div>
+            <div class="shadow_wordss">
+                <p>点击文字查看kindle功能</p>
+            </div>
+        </div>
+   
+
+    <!--第五页-->
+    <div class="page5 section section5">
+        <div class="head_left">
+            <!-- <a class="book" href="http://www.amazon.cn/b/ref=kd_we_pfr_pc_book?ie=UTF8&node=116169071" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo2.png"></a> -->
+            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo2.png">
+        </div>
+        <div class="head_right">
+            <!-- <a class="kpw3" href="http://www.amazon.cn/gp/product/B00QJDOLIO/ref=kd_we_pfr_pc_kpw3" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo2.png"></a> -->
+            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo2.png">
+        </div>
+        <div class="page5_pic">
+            <div class="fold_bj">
+                <div id="imgParent" class="imgParent">
+                    <ul>
+                        <li id="imgTrans1"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/book_kin2.png" style="width:100%"></li>
+                        <li id="imgTrans2"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/book_kin3.png" style="width:100%"></li>
+                        <li id="imgTrans3"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/book_kin4.png" style="width:100%"></li>
+                        <li id="imgTrans4"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/book_kin5.png" style="width:100%"></li>
+                        <li class="imgTrans5"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/book_kin1.png" style="width:100%;display:block;"></li>
+                    </ul>
+                </div>
+                <div class="ie-img">
+                    <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/dic_all.png" style="width:100%">
+                </div>
+                <div class="fold_left">
+                    <h1>无限阅读就是魅力</h1>
+                    <p>二十万品质电子书库<br>让你随心而选</p>
+                </div>
+                <div class="fold_right">
+                    <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/book_2.png">
+                </div>
+                <div class="ie-fold-right">
+                    <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/book_2.png">
+                </div>
+                <div class="fold_word">
+                    <ul>
+                        <!-- <li><a class="hlm" href="http://www.amazon.cn/dp/B00C4PGF80/ref=kd_we_pfr_pc_hlm" target="_blank"><p>《红楼梦》</p></a></li>
+                        <li><a class="shj" href="http://www.amazon.cn/dp/B00AA7KEOU/ref=kd_we_pfr_pc_shj" target="_blank"><p>《山海经》</p></a></li>
+                        <li><a class="dssd" href="http://www.amazon.cn/dp/B00WM1P75S/ref=kd_we_pfr_pc_dssd" target="_blank"><p>《岛上书店》</p></a></li>
+                        <li><a class="dsjsd" href="http://www.amazon.cn/dp/B00AWMGWLW/ref=kd_we_pfr_pc_dsjsd" target="_blank"><p>《大数据时代》</p></a></li> -->
+                        <li><p>《红楼梦》</p></li>
+                        <li><p>《山海经》</p></li>
+                        <li><p>《岛上书店》</p></li>
+                        <li><p>《大数据时代》</p></li>
+                    </ul>
+                </div>
+                <div class="ie-fold-word">
+                    <ul>
+                        <!-- <li><a class="hlm" href="http://www.amazon.cn/dp/B00C4PGF80/ref=kd_we_pfr_pc_hlm" target="_blank"><p>《红楼梦》</p></a></li>
+                        <li><a class="shj" href="http://www.amazon.cn/dp/B00AA7KEOU/ref=kd_we_pfr_pc_shj" target="_blank"><p>《山海经》</p></a></li>
+                        <li><a class="dssd" href="http://www.amazon.cn/dp/B00WM1P75S/ref=kd_we_pfr_pc_dssd" target="_blank"><p>《岛上书店》</p></a></li>
+                        <li><a class="dsjsd" href="http://www.amazon.cn/dp/B00AWMGWLW/ref=kd_we_pfr_pc_dsjsd" target="_blank"><p>《大数据时代》</p></a></li> -->
+                        <li><p>《红楼梦》</p></li>
+                        <li><p>《山海经》</p></li>
+                        <li><p>《岛上书店》</p></li>
+                        <li><p>《大数据时代》</p></li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+        <div class="copyright">
+            <p>图片取景自方所书店</p>
+        </div>
+    </div>
+
+    <!--第六页-->
+    <div class="page6 section section6">
+        <div class="head_left">
+            <!-- <a class="book" href="http://www.amazon.cn/b/ref=kd_we_pfr_pc_book?ie=UTF8&node=116169071" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo.png"></a> -->
+            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/left_logo.png">
+        </div>
+        <div class="head_right">
+            <!-- <a class="kpw3" href="http://www.amazon.cn/gp/product/B00QJDOLIO/ref=kd_we_pfr_pc_kpw3" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo.png"></a> -->
+            <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/right_logo.png">
+        </div>
+        <div class="page6_pic">
+            <div class="buy">
+            <div class="buy_top">
+                <h1>即刻打开阅读的魅力</h1>
+                <p>了解亚马逊Kindle电子书阅读器全系列产品</p>
+            </div>
+            <div class="buy_kin">
+                <div class="buy_lpic">.
+                    <div class="buy-new">
+                        <p>入门版</p>
+                        <img class="buy-pic1" src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/kindle.png">
+                    </div>
+                    <img class="p1" src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/sea_kin_1.png">
+                    <div class="buy_lpic_text">
+                        <h1>RMB 499</h1>
+                        <!-- <h1>Kindle <b>￥</b> 499</h1>
+                        <p>入门版</p> -->
+                        <a class="kb" href="http://www.amazon.cn/dp/B00KDRNYO4" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/link.png"></a>
+                    </div>
+                </div>
+                <div class="buy_lpic">
+                    <div class="buy-new2">
+                        <p>经典版</p>
+                        <img class="buy-pic2" src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/kin_pp.png">
+                    </div>
+                    <img class="p2" src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/sea_kin_2.png">
+                    <div class="buy_lpic_text">
+                        <h1>RMB 958</h1>
+                        <!-- <h1>全新Kindle Paperwhite <b>￥</b> 958</h1>
+                        <p>经典版</p> -->
+                        <a class="kpw3" href="http://www.amazon.cn/gp/product/B00QJDOLIO" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/link.png"></a>
+                    </div>
+                </div>
+                <div class="buy_lpic">
+                    <div class="buy-new3">
+                        <p>旗舰版</p>
+                        <img class="buy-pic3" src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/voyag.png">
+                    </div>
+                    <img class="p3" src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/sea_kin_3.png">
+                    <div class="buy_lpic_text">
+                        <h1>RMB 1499</h1>
+                        <!-- <h1>Kindle Voyage <b>￥</b> 1499</h1>
+                        <p>旗舰版</p> -->
+                        <a class="kv" href="http://www.amazon.cn/gp/product/B00MEY0VWW" target="_blank"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/link.png"></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+ </div>
+<!--二维码-->
+<div class="erweima">
+    <img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/er.png">
+</div>
+<!--footer-->
+    <div class="bottom">
+        <div class="bot_ico">
+        </div>
+        <div class="bot_left_ico">
+                <a href="javascript:void(0)"><img src="http://kindle.cdn.eyourbusiness.com/kindle/app/20150723/images/button_1.png"></a>
+        </div>
+        <div class="bot_right_nav" style="display: block;">
+            <div class="nav_dh">
+                <a class="but1" statTitle="首页" href="#pas1">首页</a>
+                <span>/</span>
+                <a class="but2" statTitle="返璞归真" href="#pas2">返璞归真</a>
+                <span>/</span>
+                <a class="but3" statTitle="长久陪伴" href="#pas3">长久陪伴</a>
+                <span>/</span>
+                <a class="but4" statTitle="游刃有余" href="#pas4">游刃有余</a>
+                <span>/</span>
+                <a class="but5" statTitle="无限阅读" href="#pas5">无限阅读</a>
+                <span>/</span>
+                <a class="but6" statTitle="kindle家族" href="#pas6">在线购买</a>
+            </div>
+        </div>
+        <div class="right_word">
+            <p> © 1999-2014 Amazon.com, Inc.</p>
+            <span>or its affiliates To participate in reading</span>
+        </div>            
+    </div>
+<script src="http://click.eub-inc.com/v2/stat.v2.js"></script>
+<script type="text/javascript">
+   var gdt_tracker = gdt_tracker || [];
+   gdt_tracker.push(["set_source_id", "16486"]);
+   (function() {
+       var doc=document, h=doc.getElementsByTagName("head")[0], s=doc.createElement("script");
+       s.async=true; s.src="http://qzs.qq.com/qzone/biz/res/gt.js";
+       h && h.insertBefore(s,h.firstChild)
+   })();
+</script>  
+</body>
+</html>
