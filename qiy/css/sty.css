@@ -1,0 +1,563 @@
+body,html{margin:0; padding:0; font-family:"微软雅黑"}
+body,div,ul,li,span,p,input,table,tr,td,h1,h2,h3,h4,h5,h6,article{margin:0; padding:0;}
+ul,li{ list-style:none;}
+img{ border:none; max-width:100%;}
+a{ text-decoration:none;}
+body,html{
+	max-width:640px;
+    width: 100%;
+    height: 100%;
+	margin:0 auto;
+    font-size: 18px;
+    overflow: scroll;
+    background:url(../images/bj.jpg) no-repeat;
+}
+b{font-weight: normal;}
+i{font-style: normal;}
+input,button,select,textarea{outline:none}
+textarea{resize:none}
+/*清除浮动*/
+.clearfix:after{content:"\200B"; display:block; height:0; clear:both; }
+.clearfix{ *zoom:1; }
+
+.box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+}
+.boxHorizontal{
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -ms-flex-direction: row;
+    -o-box-orient: horizontal;
+    box-orient: horizontal;
+    /*设置弹性盒模型对象的子元素为横向（水平）排列*/
+}
+.boxVertical{
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    /*设置弹性盒模型对象的子元素为纵向（垂直）排列*/
+}
+
+/*设置或检索弹性盒模型对象的子元素如何分配其剩余空间。*/
+.boxFlex1{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+}
+.boxFlex2{
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -ms-flex: 2;
+    -o-box-flex: 2;
+    box-flex: 2;
+}
+/*end 颜色*/
+.sizing-border{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    /*padding和border被包含在定义的width和height之内。对象的实际宽度就等于设置的width值，即使定义有border和padding也不会改变对象的实际宽度*/
+}
+/*header{
+    width:100%;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 3%;
+}
+header img:nth-child(1){
+    width: 11%;
+}
+header img:nth-child(2){
+    width: 15%;
+    float: right;
+}
+header img.intel{
+    width: 12%;
+}
+.foot{
+    width: 95%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 0.6em;
+}
+.foot .foot-top{
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #FFF;
+    font-size: 1.2em;
+}
+.foot .foot-top i{
+    vertical-align: super;
+}
+.foot .foot-top i.foot-top-tm{
+    font-size: 0.8em;
+}
+.foot .foot-cent{
+    padding-top: 0.3em;
+    border-top: 1px solid #FFF;
+}*/
+/*top*/
+.activity-top{
+	width:100%;
+	margin:0 auto;
+    position: relative;
+}
+.activity-top img:nth-child(1){
+	position:absolute;
+    right: 0;
+    width: 21%;
+}
+.activity-word{
+    margin-top: -10%;
+    width: 100%;
+    position: relative;
+}
+.activity-word img:nth-child(2){
+    position: absolute;
+    top: 14%;
+    display: block;
+}
+.activity-act{
+    width: 100%;
+    margin-top: -7%;
+}
+.activity-act p{
+    text-align: center;
+    margin-top: -12%;
+}
+.activity-inp{
+    width: 49%;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    height: 5%;
+    border-radius: 4px;
+    padding: 1% 2%;
+    margin-left: 24%;
+    margin-top: -79%;
+    display: block;
+}
+.activity-inp input{
+    width: 109%;
+    height: 125%;
+    margin-left: -5%;
+    margin-top: -3%;   
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    outline:none;
+    border:0;
+    line-height: 1em;
+}
+.lottery-pane {
+    width: 319px;
+    height: 319px;
+    background: url(../images/dial.png) no-repeat;
+    background-size: 319px 319px;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 2%;
+}
+#lottery-rotation {
+    width: 260px;
+    height: 260px;
+    background: url(../images/dial_3.png) no-repeat;
+    background-size: 260px 260px;
+    position: absolute;
+    left: 31px;
+    top: 33px;
+}
+.lottery-pane a.lottery-button {
+    position: absolute;
+    left:37%;
+    top: 37%;
+    display: inline-block;
+}
+.lottery-pane a.lottery-button i {
+    background: url(../images/dial_4.png) no-repeat;
+    background-size: 89px 99px;
+    width: 89px;
+    height: 99px;
+    display: inline-block;
+}
+.activity-clouds{
+    margin-top: -23%;
+    display: block;
+}
+.activity-list{
+    margin-top: -10%;
+    display: block;
+}
+.activity-list p{
+    text-align: center;
+    color: #7B5A5A;
+    margin-top: -4.8%;
+    font-size: 1.2em;
+}
+.studio_zj {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: -32%;
+}
+.studio_zj_top {
+    padding-top: 1px;
+}
+#demo {
+    overflow: hidden;
+    background: #ffffff;
+    width: 80%;
+    margin: 2% auto 0;
+    padding: 4% 2% 41%;
+    margin-top: -49%;
+}
+#demo1 {
+    height:auto;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+#demo1 li {
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+#demo1 li p{
+    border-bottom: 1px dotted #7B5959;
+}
+#demo1 li p i {
+    display: inline-block;
+    width: 2%;
+    vertical-align: top;
+    color: #7B5A5A;
+    font-weight: 300;
+}
+#demo1 li p span {
+    display: inline-block;
+    padding-left: 38%;
+    color: #7B5A5A;
+    font-weight: 300;
+}
+#demo2 {
+    height: auto;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+/*pop-up*/
+.pop-phone{
+    background: rgba(0, 0, 0, 0.46);
+    z-index: 9;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    display: none;
+}
+.pop-phone .wrong{
+    background: url(../images/pop_up_2.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 23.6%;
+    margin: 0 auto;
+    /* display: block; */
+    position: relative;
+    top: 32%;
+    left: 1%;
+}
+.pop-phone .wrong img{
+    float: right;
+    margin-right: 10%;
+    width: 10%;
+    margin-top: -4%;
+    display: block;
+}
+.pop-phone .wrong p{
+    text-align: center;
+    padding-top: 16%;
+    font-size: 1.2em;
+    color:#545454;
+}
+/*获得书*/
+.pop-book{
+    background: rgba(0, 0, 0, 0.46);
+    z-index: 9;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    display: none;
+}
+.pop-book .book{
+    background: url(../images/pop_up_1.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 55%;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    left: 1%;
+}
+.pop-book .book .close{
+    float: right;
+    margin-right: 10%;
+    width: 10%;
+    margin-top:2%;
+}
+.pop-book .book .img1{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.pop-book .book p{
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 7%;
+    color: #545454;
+}
+.succeed{
+    border: 1px solid #eb4d4d;
+    background: #eb4d4d;
+    width: 50%;
+    height: 29px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 2em;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+.succeed span{
+    color:#ffffff;
+}
+/*获得paperwhite*/
+.pop-black{
+    background: rgba(0, 0, 0, 0.46);
+    z-index: 9;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    display: none;
+}
+.pop-black .black{
+    background: url(../images/pop_up_1.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 55%;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    left: 1%;
+}
+.pop-black .black .close{
+    float: right;
+    margin-right: 10%;
+    width: 10%;
+    margin-top:2%;
+}
+.pop-black .black .img1{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.pop-black .black p{
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 7%;
+    color: #545454;
+}
+
+/*获得阅读器*/
+.pop-white{
+    background: rgba(0, 0, 0, 0.46);
+    z-index: 9;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    display: none;
+}
+.pop-white .white{
+    background: url(../images/pop_up_1.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 55%;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    left: 1%;
+}
+.pop-white .white .close{
+    float: right;
+    margin-right: 10%;
+    width: 10%;
+    margin-top:2%;
+}
+.pop-white .white .img1{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.pop-white .white p{
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 7%;
+    color: #545454;
+}
+
+
+/*活动规则*/
+.pop-rule{
+    background: rgba(0, 0, 0, 0.46);
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    display: none;
+}
+.cls{
+    float: right;
+    margin-right: 1%;
+    width: 8%;
+    margin-top: 1%;
+}
+.pop-rule .rule{
+    background: #ffffff;
+    width: 92%;
+    height:95%;
+    background-size: 100% 55%;
+    margin: 0 auto;
+    position: relative;
+    top: 2%;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+.pop-rule .rules{
+    margin-top:8%;
+    margin-left: 8%;
+}
+.pop-rule .rules ul{
+    width: 89%;
+}
+.pop-rule .rules ul li{
+    text-indent: 2em;
+    padding-bottom: 2%;
+    color: #505050;
+    font-size: 0.8em;
+}
+.id{
+    width: 74%;
+    border-bottom: 1px solid #b5b5b5;
+    margin-left: 11%;
+}
+.id-img{
+    width: 50%;
+    text-align: center;
+    margin-left: 30%;
+}
+.id p{
+    text-align: center;
+    margin-top: -16%;
+    font-size: 0.9em;
+    padding-bottom: 6%;
+    color: #187fc1;
+    margin-left: 7%;
+}
+.low{
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin-left: 9%; 
+    padding-bottom: 4%;
+    color: #505050;
+}
+.bottom{
+    width: 78%;
+    text-align: center;
+    display: block;
+    margin-left: 11%;
+}
+.bottom i{
+    color: #505050;
+}
+.bottom h3{
+    color: #187fc1;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+.bottom img{
+    width: 83%;
+    margin-right: 4%;
+}
+/*下载页*/
+.download{
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    padding-top: 3%;
+    width: 100%;
+}
+.download a{
+    color: #1794E4;
+}
+.pop-rules{
+    width: 100%;
+    display: block;
+    margin-top: -2%;
+}
+.pop-rules .rule{
+    margin: 0 auto;
+}
+.pop-rules .rules{
+    margin-top:4%;
+    margin-left: 8%;
+}
+.pop-rules .rules ul{
+    width: 89%;
+}
+.pop-rules .rules ul li{
+    text-indent: 2em;
+    padding-bottom: 0.5%;
+    color: #505050;
+}
+.code{
+    text-align: center;
+    display: block;
+}
+.code img{
+    width: 30%;
+}
+.code p{
+    color: #1794E4;
+}
+.lows {
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin-left: 9%;
+    padding-bottom: 4%;
+    color: #505050;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <link href="css/sty.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css"   media="screen and (min-width: 321px) and (max-width: 480px)" href="css/sty480.css">
+    <link rel="stylesheet" media="screen and (max-width: 320px)" href="css/sty320.css" />
+    <title>demo1</title>
+</head>
+<script src="http://gamebbs.pps.tv/static/js/mobile/jquery-1.8.3.min.js?tUj" type="text/javascript"></script>
+
+<body style="background:#ffffff;">
+    <div class="download">
+        <a href="javascript:;" onClick="downloadGame1()" >点击下载亚马逊Kindle</a>
+    </div>
+    <div class="pop-rules">
+        <div class="rule">
+            <div class="rules">
+                <ul>
+                    <li>10月16日-10月22日期间，所有填写手机号码的用户均有机会参加抽奖活动；</li>
+                    <li>活动期间每天由系统自动抽取2名幸运用户各获得全新Kindle Paperwhite电子书阅读器一台，抽取4名幸运用户各获得Kindle电子书阅读器一台，每个手机号码有一次抽奖机会；</li>
+                    <li>游戏中抽中Kindle设备者必须填写完整信息注册亚马逊账户成功才可获得实物奖品，奖品将在活动结束后由亚马逊确认获奖者信息后统一寄送；</li>
+                    <li>活动期间参与游戏填写完整信息注册成功并下载安装亚马逊Kindle app的用户，在亚马逊Kindle app内登录注册账户将免费自动获得奖品图书。</li>
+                </ul>
+            </div>
+            <div class="id">
+                <img class="id-img" src="images/pop_line1.png">
+                <p>亚马逊Kindle服务号<br>微 信 ID : cn_Kindle</p>
+            </div>
+            <div class="code">
+                <img src="images/code.png">
+                <p>长按二维码关注亚马逊</p>
+            </div>
+            <div class="lows">
+                <span>亚马逊Kindle服务号第一时间奉上产品、电子书、促销、社区互动和服务的资讯。</span>
+            </div>
+            <div class="bottom">
+                <i>如良器，如挚友，在“读”当一面中，</i>
+                <h3>发现阅读心意，点亮生活灵感。</h3>
+                <img src="images/pop_line2.png">
+            </div>
+        </div>
+    </div>
+<!--<a href="javascript:;" onClick="downloadGame2()" >test2</a>
+<a href="javascript:;" onClick="downloadGame3()" >test3</a>
+<a href="javascript:;" onClick="downloadGame()" >test_single</a>
+
+<a href="javascript:;" onClick="doLogin()" style="color:red;">login</a>
+<input id="input_tick" value="1000"/>-->
+</body>
+<!--<script>
+// login 
+ 
+var timer1,timer2;
+var list = [ 
+    { 
+        "logo": "http://pp.myapp.com/ma_icon/0/icon_6633_21075035_1431417514/96", 
+        "apkmd5": "asdASDasdasdassd", 
+        "versionname": "1.5.2", 
+        "appname": "qq", 
+        "apkurl": 
+"http://cdn.data.video.iqiyi.com/cdn/ppsgame/20150528/upload/unite/pps/dj/yao/0528/kxaxc189.apk", 
+        "packagename": "com.pps.tv", 
+        "app_type": 2, 
+        "app_id": 100, 
+        "from": "ppsforum" 
+    }, 
+    { 
+        "logo": "http://pp.myapp.com/ma_icon/0/icon_6633_21075035_1431417514/96", 
+        "apkmd5": "asdASDasdasdassd", 
+        "versionname": "1.5.2", 
+        "appname": "qq", 
+        "apkurl": 
+"http://222.73.3.43/dd.myapp.com/16891/A529520B1D77742BD5F5231891A5E802.apk?mkey=5554759ffd0cc590&f=e487&fsname=com.tencent.mobileqq_5.6.0_242.apk&asr=8eff&p=.apk", 
+        "packagename": "com.pps.tv", 
+        "app_type": 2, 
+        "app_id": 101, 
+        "from": "ppsforum" 
+    }, 
+    { 
+        "logo": "http://pp.myapp.com/ma_icon/0/icon_6633_21075035_1431417514/96", 
+        "apkmd5": "asdASDasdasdassd", 
+        "versionname": "1.5.2", 
+        "appname": "qq", 
+        "apkurl": 
+"http://222.73.3.43/dd.myapp.com/16891/A529520B1D77742BD5F5231891A5E802.apk?mkey=5554759ffd0cc590&f=e487&fsname=com.tencent.mobileqq_5.6.0_242.apk&asr=8eff&p=.apk", 
+        "packagename": "com.pps.tv", 
+        "app_type": 2, 
+        "app_id": 102, 
+        "from": "ppsforum" 
+    } 
+];
+var download_url = 'http://cdn.data.video.iqiyi.com/cdn/ppsgame/20150421/upload/unite/pps/android/20150421/qbpkq_iqiyiqipu.apk';
+var ppsappstore_url = 'qiyiplug://tv.pps.mobile/res.plugintransferpage?id=tv.pps.appstore&pageId=7&';
+var qiyiappstore_url = 'qiyiplug://com.qiyi.video/res.plugintransferpage?id=tv.pps.appstore&pageId=7&';
+var loadIframe = null;
+
+function createIframe(){
+	var iframe = document.createElement("iframe");
+    iframe.style.cssText = "display:none;width:0px;height:0px;";
+    document.body.appendChild(iframe);
+    loadIframe = iframe;
+}
+createIframe();
+
+function downloadGame3(){
+	var l = JSON.stringify(list);
+	l = encodeURIComponent(l);
+	var url1 = ppsappstore_url+('json='+l);
+	var url2 = qiyiappstore_url+('json='+l);
+	_doDownload(url1,url2);
+	
+}
+
+function downloadGame2(){
+	var l = list.slice(1);
+	l = JSON.stringify(l);
+	l = encodeURIComponent(l);
+	var url1 = ppsappstore_url+('json='+l);
+	var url2 = qiyiappstore_url+('json='+l);
+	_doDownload(url1,url2);
+}
+
+function downloadGame1(){
+	var l = list.slice(2);
+	l = JSON.stringify(l);
+	l = encodeURIComponent(l);
+	var url1 = ppsappstore_url+('json='+l);
+	var url2 = qiyiappstore_url+('json='+l);
+	_doDownload(url1,url2);
+}
+
+function downloadGame(){
+	var l = "app_id=201001720&app_type=1&packagename=com.gangyun.makeup&logo=http://img7.qiyipic.com/image/appstore/20150508/81/22/201001720_33_3_1431082593537.png&appname=美人妆&apkmd5=c397e43cc2230f56029d4e03c8e4a9aa&versionname=3.0.3&apkurl=http://data.store.iqiyi.com//cdn/appstore/20150508/27/16/com_gangyun_makeup_33.apk&from=h5rfrnul";
+	var url1 = ppsappstore_url+(l);
+	var url2 = qiyiappstore_url+(l);
+	_doDownload(url1,url2);
+}
+
+function _doDownload(url1,url2){
+	var tick = $('#input_tick');
+	if(tick && tick.length){
+		tick = tick.val() || '1000';
+		tick = parseInt(tick,10);	
+	}
+	else{
+		tick = 1000;
+	}
+	if(navigator.userAgent.match(/(Android);?[\s\/]+([\d.]+)?/)){
+		loadIframe.src = url1;
+		var t1 = Date.now();
+		timer1 = setTimeout(function(){
+			clearTimeout(timer1);
+			if(Date.now() - t1 < (tick+100)){
+				loadIframe.src = url2;
+				var t2 = Date.now();
+				timer2 = setTimeout(function(){
+					clearTimeout(timer2);
+					if(Date.now() - t2 < (tick+100)){
+						window.location.href = download_url;
+					}
+				}, tick);
+			}
+		}, tick);
+	}else{
+		window.location.href = download_url;
+	}
+}
+</script>-->
+</html>

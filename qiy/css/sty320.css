@@ -1,0 +1,74 @@
+body{
+    font-size: 12px;
+}
+/*苹果4之类的屏幕尺寸*/
+@media screen and (max-height: 420px){
+.studio_zj {
+    top: -35%;
+}  
+.pop-book .book {
+    background-size: 100% 66%;
+} 
+.pop-book .book {
+    top: 21%;
+}
+.pop-black .black {
+    background-size: 100% 66%;
+} 
+.pop-black .black {
+    top: 21%;
+}
+.pop-white .white {
+    background-size: 100% 66%;
+} 
+.pop-white .white {
+    top: 21%;
+}
+.pop-rule .rule{
+    height:100%;
+    top:0;
+}
+.pop-rule .rules {
+    margin-top:4%;
+}
+.id-img{
+    width: 48%;
+}
+.id p{
+    font-size: 0.7em;
+}
+.pop-phone .wrong {
+    background-size: 100% 28%;
+}
+.download {
+    font-size: 16px;
+}
+.pop-rules .rules ul li {
+    font-size:0.8em;
+}
+.pop-rules .rules {
+    margin-top: 2%;
+}
+.code img {
+    width:20%;
+}
+.lows {
+    padding-bottom:0;
+}
+.low{
+    padding-bottom: 0;
+    font-size: 0.7em;
+}
+.bottom{
+    font-size: 0.7em
+}
+.code p{
+    font-size: 0.7em;
+}
+}
+/*420到500之类的屏幕尺寸*/
+@media screen and (min-height: 421px) and (max-height:504px){
+.code img {
+    width:20%;
+}
+}
