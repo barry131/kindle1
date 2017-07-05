@@ -1,0 +1,431 @@
+body,html{margin:0; padding:0;}
+body,div,ul,li,span,p,input,table,tr,td,h1,h2,h3,h4,h5,h6,article{margin:0; padding:0;}
+ul,li{ list-style:none;}
+img{ border:none; max-width:100%;}
+a{ text-decoration:none;}
+@font-face{font-family: "yahei";
+ src:url(yahei.ttf)
+}
+body{
+	max-width:900px;
+	margin:0 auto;
+	background-size: cover;
+	font-size: 16px;
+}
+/* 顶部白色页*/
+#user {
+	width:100%;
+	height:100%;
+	background-size:100%;
+}
+#user .head{
+	background: #ebebeb;
+	width: 100%;
+	height: 100%;
+}
+.top1{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin:0 auto;
+}
+.zi1{
+	width: 96%;
+	height: 100%;
+	margin-top: 14px;
+	text-align: center;
+	padding:0 2%;
+}
+.zi1 h1{
+	font-size:0.7em;
+	color: #000000;
+	font-family:"yahei";
+	font-weight:100;
+}
+.line{
+	width: 100%;
+	display: block;
+	margin-top: 6px;
+}
+.zi2{
+	width: 94%;
+	height: 100%;
+	text-align: left;
+	margin-bottom: 20px;
+	padding:0 3%;
+}
+.zi2 p{
+	color: #707070;
+	font-size: 0.78em;
+	line-height:1.6em;
+	font-family:"yahei";
+	font-weight:100;
+}
+.zi2 .big{
+	font-size: 2.2em;
+	color: #000000;
+	font-family:"yahei";
+}
+.zi2 a{
+	color:#1e81c1;
+}
+.zi3{
+	float: left;
+	width: 92%;
+	padding:2% 4%;
+	
+}
+.zi3 h2{
+	font-size: 0.78em;
+	color: #707070;
+	margin-top: 6px;
+	font-family:"yahei";
+	line-height:1.6em;
+	font-weight:100;
+}
+.zi4 {
+	float: left;
+	width: 92%;
+	padding:0 4%;
+}
+.zi4 h2{
+	font-size: 0.78em;
+	color: #707070;
+	margin-top: 6px;
+	font-family:"yahei";
+	line-height:1.6em;
+	font-weight:100;
+}
+/*灰色*/
+.gray{
+	width:100%;
+	height:100%;
+	display:block;
+	background: #ebebeb;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.introduce1{
+	margin-top: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.daohang{
+	width: 100%;
+	padding-top: 15px;
+	overflow: hidden;
+	background: #ebebeb;
+}
+.daohang>*{
+	float: left
+}
+.daohang a{
+	display: block;
+	width: 14%;
+	margin-left: 2%;
+}
+.daohang a .aimg{
+	width: 100%;
+	max-width: 100%;
+}
+.daohang a .blue{
+	width: 100%;
+	max-width: 100%;
+	display:none;
+}
+.tu{
+	width: 3%;
+	margin: 23px -5px 0;
+	display:block;
+	float:left;
+	margin-left: 2%;
+}
+.pic1{
+	width: 100%;
+	display: block;
+}
+.pic1 img{
+	width: 100%;
+	padding-top: 79px;
+}
+.pic2{
+	width: 100%;
+	display: block;
+}
+.pic2 img{
+	width: 100%;
+	padding-top: 75px;
+}
+.pic3{
+	width: 100%;
+	display: block;
+}
+.pic3 img{
+	width: 100%;
+	margin-top: 10px;
+}
+.pic4{
+	width: 100%;
+	display: block;
+}
+.pic4 img{
+	width: 100%;
+	margin-top:10px;
+}
+.pic5{
+	width: 100%;
+	display: block;
+}
+.pic5 img{
+	width: 100%;
+	margin-top: 20px;
+}
+.pic6{
+	width: 100%;
+	display: block;
+}
+.pic6 img{
+	width: 100%;
+	margin-top: 20px;
+}
+.pic7{
+	width: 100%;
+	display: block;
+}
+.pic7 img{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom:30px;
+}
+
+.denglu{
+	width: 100%;
+	text-align: left;
+	padding-top: 75px;
+}
+.denglu h3{
+	font-size: 0.78em;
+	color: #000000;
+	padding: 13px;
+	font-family:"yahei";
+	font-weight:100;
+}
+.denglu img{
+	width: 12%;
+	float: left;
+}
+.denglu a{
+	color: #78a8d0;
+	text-decoration: underline;
+}
+.email{
+	width: 100%;
+	text-align: left;
+	margin-top: 10px;
+}
+.email img{
+	width: 55px;
+	float: left;
+}
+.email h3{
+	font-size: 0.78em;
+	color: #000000;
+	padding: 13px;
+	font-family:"yahei";
+	font-weight:100;
+}
+.xian1{
+	width: 100%;
+	height: 100%;
+	padding-top: 66px;
+	padding-bottom: 20px;
+}
+.xian2{
+	width: 100%;
+	height: 100%;
+	padding-top: 65px;
+	padding-bottom: 20px;
+}
+.xian3{
+	width: 100%;
+	height: 100%;
+	margin-top: 60px;
+
+}
+.save1{
+	width: 100%;
+	text-align: left;
+}
+.save1 img{
+	width: 12%;
+	float: left;
+}
+.save1 h3{
+	font-size: 0.8em;
+	color: #000000;
+	padding: 13px;
+	font-family:"yahei";
+	font-weight:100;
+}
+.save1 h2{
+	font-size: 12px;
+	color: #707070;
+	margin-top: -31px;
+	width:92%;
+	margin:0 auto;
+	font-family:"yahei";
+}
+.save2{
+	width: 100%;
+	text-align: left;
+}
+.save2 img{
+	width: 55px;
+	float: left;
+}
+.save2 h3{
+	font-size: 14px;
+	color: #000000;
+	padding: 13px;
+	font-family:"yahei";
+}
+.save2 h2{
+	font-size: 0.7em;
+	color: #707070;
+	margin-top: -31px;
+	width:92%;
+	margin:0 auto;
+	line-height:1.6em;
+	font-weight:100;
+	font-family:"yahei"
+}
+
+/*底部*/
+.below{
+	width: 100%;
+	float: left;
+}
+.below_list{
+	width:100%;
+	display:block;
+	overflow:hidden;
+	padding-bottom:0.5%;
+}
+.below h3{
+	font-size: 0.8em;
+	color: #000000;
+	margin-left:6px;
+	padding-bottom:2%;
+	font-family:"yahei";
+	font-weight:100;
+}
+.below_list h3{
+	font-size: 0.8em;
+	color: #000000;
+	margin-left:6px;
+	float:left;
+	padding-top:3px;
+}
+.below_list img{
+	width: 9%;
+	float: left;
+	margin-left:-3px;
+	padding-top: 5px;
+}
+.below_list h3 span{
+	color: #383838;
+	font-size: 1em;
+	font-family:"yahei";
+	font-weight:100;
+}
+.bottom{
+	width: 100%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding:2% 0;
+}
+.bottom a{
+	color: #000000;
+	text-decoration: underline;
+	font-size:.48em;
+	width:96%;
+	margin:0 auto;
+	display:block;
+	padding:2%;
+	text-align:center;
+	font-family:"yahei";
+	font-weight:100;
+}
+
+
+
+
+/*苹果6*/
+@media screen and (max-width: 375px) and (min-width: 370px) and (max-height: 605px){
+	.zi1 h1{
+		font-size:0.64em;
+	}
+}
+/*苹果6P*/
+@media screen and (max-width: 414px) and (min-width: 386px) and (max-height: 800px){
+	.zi1 h1{
+		font-size:0.62em;
+	}
+}
+
+
+
+
+/*苹果4之类的屏幕尺寸*/
+@media screen and (max-height: 420px){
+.below h3{
+	font-size: 12px;
+}
+.zi1 h1
+{
+	font-size:0.5em;
+}
+.zi2 p {
+	font-size: 0.6em;
+}
+.pic {
+	padding-top: 30px;
+}
+.denglu h3 {
+	font-size: 0.7em;
+	padding: 20px;
+}
+.xian1 {
+	margin-top: 80px;
+}
+.tu {
+	margin: 21px 0px 0px 5px;
+}
+.daohang a {
+	height: 45px;
+}
+
+.bottom a{
+	font-size:.4em;
+}
+}
+/*420到500之类的屏幕尺寸*/
+@media screen and (min-height: 421px) and (max-height:504px){
+.zi1 h1
+{
+	font-size:0.5em;
+}
+.denglu h3{
+	font-size:0.7em;
+}
+.bottom a{
+	font-size:.4em;
+}
+}
+
+
+

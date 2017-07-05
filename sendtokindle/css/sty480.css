@@ -1,0 +1,157 @@
+/*类似索尼屏幕*/
+
+/*三星,xiaomi*/
+@media screen and (max-width: 361px) and (min-width: 350px) and (max-height: 570px){
+
+.index_sybz_qb{
+	width:87%;
+	max-height:340px;
+	overflow-y:auto;
+	padding:0 6%;
+}
+.kindle_yc ul li a span{
+	width:84%;
+	font-size:0.76em;
+	padding-top:1%;
+}
+.kindle_yc ul li{
+	width:43%;
+	padding-left:5%;
+}
+.index_sybz h2{
+	font-size:0.82em;
+}
+.index_sybz{
+	min-height:409px;
+}
+}
+
+
+
+/*苹果6*/
+@media screen and (max-width: 375px) and (min-width: 370px) and (max-height: 605px){
+.kindle_yc ul li{
+	padding-left:4%;
+	width:44%;
+}
+.kindle_yc ul li a span{
+	width:84%;
+	font-size:0.76em;
+	padding-top:1%;
+}
+.index_sybz_qb{
+	width:87%;
+	max-height:360px;
+	overflow-y:auto;
+	padding:0 6%;
+}
+.index_sybz h2{
+	font-size:0.78em;
+}
+.index_sybz_list h3 a{
+	font-size:0.7em;
+	letter-spacing:-0.5px;
+}
+.index_sybz{
+	min-height:434px;
+}
+}
+
+
+
+/*苹果6P */
+@media screen and (max-width: 414px) and (min-width: 386px) and (max-height: 800px){
+.kindle_yc ul li{
+	padding-left:4%;
+	width:44%;
+}
+.index_sybz_qb{
+	width:88%;
+	max-height:410px;
+	overflow-y:auto;
+	padding:0 6%;
+}
+.kindle_yc ul li a span{
+	width:84%;
+	float:left;
+	font-size:0.8em;
+	color:#6e6a7c;
+	padding-top:2%;
+	display:block;
+}
+.index_sybz{
+	min-height:551px;
+}
+
+}
+
+/*魅族4 384*519*/
+@media screen and (max-width: 385px) and (min-width: 380px) and (max-height: 520px){
+.index_sybz_qb{
+	width:87%;
+	max-height:274px;
+	overflow-y:auto;
+	padding:0 6%;
+}
+.kindle_yc ul li a span{
+	padding-top:2%;
+}
+.index_sybz h2{
+	font-size:0.85em;
+}
+.kindle_yc ul li{
+	padding-left:6%;
+	width:43%;
+}
+}
+
+/*魅族3 432*600 */
+@media screen and (max-width: 435px) and (min-width: 430px) and (max-height: 602px){
+.index_sybz_qb{
+	width:87%;
+	max-height:324px;
+	overflow-y:auto;
+	padding:0 6%;
+}
+.kindle_yc ul li{
+	width:40%;
+	padding-left:7%;
+}
+.kindle_yc ul li a span{
+	padding-top:2%;
+}
+.index_footer ul li a img{
+	padding-left:13%;
+}
+.index_footer ul li a span{
+	width:60%;
+}
+.index_footer .footer_list3 a span{
+	width:52%;
+}
+.index_sybz{
+	min-height:407px;
+}
+}
+/*索尼摩托罗拉3 360*520 */
+@media screen and (max-width: 360px) and (min-width: 358px) and (max-height: 520px){
+.index_sybz_qb{
+	width:87%;
+	max-height:289px;
+	overflow-y:auto;
+	padding:0 6%;
+}
+.index_sybz h2{
+	font-size:0.82em;
+}
+.tx_top_zi h2{
+	padding-top:1%;
+}
+.kindle_yc ul li{
+	width:43%;
+	padding-left:5%;
+}
+.index_sybz{
+	min-height:359px;
+}
+}

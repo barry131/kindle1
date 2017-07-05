@@ -1,0 +1,483 @@
+
+/*文字样式*/
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+/*??*/
+.text-justify {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-ellipsis{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity .15s linear;
+       -o-transition: opacity .15s linear;
+          transition: opacity .15s linear;
+}
+.fade.in {
+  opacity: 1;
+}
+/*弹出框----标题 内容 X BTN*/ 
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.alert .alert-link {
+  font-weight: bold;
+}
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+}
+.alert > p + p {
+  margin-top: 5px;
+}
+.alert-dismissable,
+.alert-dismissible {
+  padding-right: 35px;
+}
+.alert-dismissable .close,
+.alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+
+.alert-success .alert-link {
+  color: #2b542c;
+}
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+.alert-info .alert-link {
+  color: #245269;
+}
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+.alert-warning .alert-link {
+  color: #66512c;
+}
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+.alert-danger .alert-link {
+  color: #843534;
+}
+/*进度条*/
+.progress {
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #337ab7;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  -webkit-transition: width .6s ease;
+       -o-transition: width .6s ease;
+          transition: width .6s ease;
+}
+
+/*结构布局样式*/
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.invisible {
+  visibility: hidden;
+}
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.NoBorder {
+  border: 0 none;
+}
+
+.Break {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.Nobreak {
+  word-break: keep-all;
+  word-wrap: normal;
+}
+
+/*----------------------------------------------------------------*/
+/*清除浮动*/
+.clearfix:after{content:"\200B"; display:block; height:0; clear:both; }
+.clearfix{ *zoom:1; }
+
+/*盒子模型*/
+.com-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    /*将对象作为弹性盒模型显示*/
+}
+/*设置弹性盒模型对象的子元素的排列方式*/
+.com-boxHorizontal{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -ms-flex-direction: row;
+    -o-box-orient: horizontal;
+    box-orient: horizontal;
+    /*设置弹性盒模型对象的子元素为横向（水平）排列*/
+}
+.com-boxVertical{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    /*设置弹性盒模型对象的子元素为纵向（垂直）排列*/
+}
+/*end 设置弹性盒模型对象的子元素的排列方式*/
+
+/*设置弹性盒模型对象的子元素的对齐方式。box-pack为水平对齐方式  box-align垂直对齐方式*/
+.com-boxPackStart{
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -o-box-pack: start;
+    -ms-box-pack: start;
+    box-pack: start;
+    /*设置弹性盒模型对象的子元素从开始位置对齐（等同于左对齐）*/
+}
+.com-boxPackCenter{
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-box-pack: center;
+    box-pack: center;
+    /*设置弹性盒模型对象的子元素居中对齐 */
+}
+.com-boxPackEnd{
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -o-box-pack: end;
+    -ms-box-pack: end;
+    box-pack: end;
+    /*设置弹性盒模型对象的子元素从结束位置对齐（等同于右对齐）*/
+}
+.com-boxPackJustify{
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -o-box-pack: justify;
+    -ms-box-pack: justify;
+    box-pack: justify;
+    /*设置弹性盒模型对象的子元素两端对齐 */
+}
+.com-boxAlignStart{
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -o-box-align: start;
+    -ms-box-align: start;
+    box-align: start;
+    /*设置弹性盒模型对象的子元素从开始位置对齐*/
+}
+.com-boxAlignCenter{
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-box-align: center;
+    box-align: center;
+    /*设置弹性盒模型对象的子元素居中对齐 */
+}
+.com-boxAlignEnd{
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    -o-box-align: end;
+    -ms-box-align: end;
+    box-align: end;
+    /*设置弹性盒模型对象的子元素从结束位置对齐 */
+}
+.com-boxAlignBaseline{
+    -webkit-box-align: baseline;
+    -moz-box-align: baseline;
+    -o-box-align: baseline;
+    -ms-box-align: baseline;
+    box-align: baseline;
+    /*设置弹性盒模型对象的子元素基线对齐 */
+}
+.com-boxAlignStretch{
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -o-box-align: stretch;
+    -ms-box-align: stretch;
+    box-align: stretch;
+    /*设置弹性盒模型对象的子元素自适应父元素尺寸 */
+}
+/*end 设置弹性盒模型对象的子元素的对齐方式。box-pack为水平对齐方式  box-align垂直对齐方式*/
+
+/*设置或检索弹性盒模型对象的子元素如何分配其剩余空间。*/
+.com-boxFlex1{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+}
+.com-boxFlex2{
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -ms-flex: 2;
+    -o-box-flex: 2;
+    box-flex: 2;
+}
+.com-boxFlex3{
+    -webkit-box-flex: 3;
+    -moz-box-flex: 3;
+    -ms-flex: 3;
+    -o-box-flex: 3;
+    box-flex: 3;
+}
+.com-boxFlex4{
+    -webkit-box-flex: 4;
+    -moz-box-flex: 4;
+    -ms-flex: 4;
+    -o-box-flex: 4;
+    box-flex: 4;
+}
+.com-boxFlex5{
+    -webkit-box-flex: 5;
+    -moz-box-flex: 5;
+    -ms-flex: 5;
+    -o-box-flex: 5;
+    box-flex: 5;
+}
+/*end 设置或检索弹性盒模型对象的子元素如何分配其剩余空间。*/
+
+/*logo*/
+.com-logo{
+    width: 100%;
+    max-height: 80px;
+    min-height: 30px;
+}
+.com-logo:after{
+    content:"\200B"; 
+    display:block; 
+    height:0; 
+    clear:both; 
+}
+.com-logo{ 
+    *zoom:1; 
+}
+/*按钮样式*/
+.com-btn-height{
+    display: block;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    /*直角按钮*/
+}
+.com-btn-padding{
+    display: block;
+    width: 100%;
+    padding: 3% 0 3.3%;
+    height: auto;
+    line-height: inherit;
+    /*直角按钮*/
+}
+.com-radius5{
+    border-radius: 5px;
+    /*圆角*/
+}
+.com-radius10{
+    border-radius: 10px;
+    /*圆角*/
+}
+.com-radius50{
+    border-radius: 50px;
+    /*圆角*/
+}
+/*end 按钮样式*/
+
+/*颜色*/
+.com-color-dell1-blue{
+    color: #0085c3;
+}
+.com-color-dell1-darkGray{
+    color: #444444;
+}
+.com-color-dell1-gray{
+    color: #AAAAAA;
+}
+.com-color-dell1-white{
+    color: #FFFFFF;
+}
+.com-color-dell1-teal{
+    color: #71c6c1;
+}
+.com-color-dell1-green{
+    color: #7AB800;
+}
+.com-color-dell1-lightGreen{
+    color: #c1d82f;
+}
+.com-color-dell1-yellow{
+    color: #f2af00;
+}
+.com-color-dell1-orange{
+    color: #ff7700;
+}
+.com-color-dell1-red{
+    color: #dc5034;
+}
+.com-color-dell1-darkRed{
+    color: #ce1126;
+}
+.com-color-dell1-berry{
+    color: #b7295A;
+}
+.com-color-dell1-purole{
+    color: #6e2585;
+}
+.com-color-dell1-darkBlue{
+    color: #00447c;
+}
+/*背景颜色*/
+.com-bg-dell1-blue{
+    background-color: #0085c3;
+}
+.com-bg-dell1-darkGray{
+    background-color: #444444;
+}
+.com-bg-dell1-gray{
+    background-color: #AAAAAA;
+}
+.com-bg-dell1-white{
+    background-color: #FFFFFF;
+}
+.com-bg-dell1-teal{
+    background-color: #71c6c1;
+}
+.com-bg-dell1-green{
+    background-color: #7AB800;
+}
+.com-bg-dell1-lightGreen{
+    background-color: #c1d82f;
+}
+.com-bg-dell1-yellow{
+    background-color: #f2af00;
+}
+.com-bg-dell1-orange{
+    background-color: #ff7700;
+}
+.com-bg-dell1-red{
+    background-color: #dc5034;
+}
+.com-bg-dell1-darkRed{
+    background-color: #ce1126;
+}
+.com-bg-dell1-berry{
+    background-color: #b7295A;
+}
+.com-bg-dell1-purole{
+    background-color: #6e2585;
+}
+.com-bg-dell1-darkBlue{
+    background-color: #00447c;
+}
+/*end 颜色*/
