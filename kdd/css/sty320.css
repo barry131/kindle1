@@ -1,0 +1,20 @@
+body{
+    font-size: 12px;
+}
+.df-list{
+    margin-top:2%;
+}
+.df-list span img{
+    width:9%;
+}
+/*苹果4之类的屏幕尺寸*/
+@media screen and (max-height: 420px){
+.pop-code-zj {
+    margin-top: 22%;
+}
+.pop-code-zj span {
+    font-size: 1em;
+}
+}
+/*420到500之类的屏幕尺寸*/
+@media screen and (min-height: 421px) and (max-height:500px){}
