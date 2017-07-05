@@ -1,0 +1,21 @@
+body{
+}
+/*苹果4之类的屏幕尺寸*/
+@media screen and (max-height: 420px){
+}
+
+/*420到500之类的屏幕尺寸  苹果5*/
+@media screen and (min-height: 421px) and (max-height:505px){
+	.ewmbox{
+		width: 90%;
+	}
+	.ewmimg{
+		display: none;
+	}
+	.mes{
+		padding-bottom: 2rem;		
+	}
+	.photoshowbtn{
+		bottom: 2rem;
+	}
+}

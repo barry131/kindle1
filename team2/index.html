@@ -1,0 +1,521 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kindle</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="css/sty.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css"   media="screen and (min-width: 321px) and (max-width: 480px)" href="css/sty480.css">
+<link rel="stylesheet" media="screen and (max-width: 320px)" href="css/sty320.css" />
+</head>
+
+<body>
+    
+    <audio autoplay="autoplay" loop id="audio" src="images/music.mp3"></audio>
+
+    <!--start loading-->
+    <div class="loadingwarp" id="loadingwarp">
+        <div id="veryhuobox">
+          <div class="load-pic">
+                <img src="images/logo-pic.png">
+          </div>
+          <div id="veryhuoLoading"></div>
+        </div>
+    </div>
+    <!--end loading-->
+
+    <div class="wrapcon auto" style="opacity: 0;">
+
+        <div class="wrap auto" id="wrap">
+
+            <header class="loadingheader">
+                <!-- <img src="images/logo.png"> -->
+            </header>
+
+            <div class="main_visualbox">
+                <div class="flicking_conbox" id="bannersub">
+                    <a href="#" class="on"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+                <div class="main_imagebox">
+                    <ul id="bannerul">
+                        <li>
+                            <img src="images/bannerbg1.jpg" class="bannerbg" />
+                            <img src="images/bannerper1.png" class="bannerper" />
+                            <img src="images/bannertext1.png" class="bannertext" />
+                        </li>
+                        <li>
+                            <img src="images/bannerbg2.jpg" class="bannerbg" />
+                            <img src="images/bannerper2.png" class="bannerper" />
+                            <img src="images/bannertext2.png" class="bannertext" />
+                        </li>
+                        <li>
+                            <img src="images/bannerbg3.jpg" class="bannerbg" />
+                            <img src="images/bannerper3.png" class="bannerper" />
+                            <img src="images/bannertext3.png" class="bannertext" />
+                        </li>
+                        <li>
+                            <img src="images/bannerbg4.jpg" class="bannerbg" />
+                            <img src="images/bannerper4.png" class="bannerper" />
+                            <img src="images/bannertext4.png" class="bannertext" />
+                        </li>
+                        <li>
+                            <img src="images/bannerbg5.jpg" class="bannerbg" />
+                            <img src="images/bannerper5.png" class="bannerper" />
+                            <img src="images/bannertext5.png" class="bannertext" />
+                        </li>
+                        <li>
+                            <img src="images/bannerbg6.jpg" class="bannerbg" />
+                            <img src="images/bannerper6.png" class="bannerper" />
+                            <img src="images/bannertext6.png" class="bannertext" />
+                        </li>
+                        <li>
+                            <img src="images/bannerbg7.jpg" class="bannerbg" />
+                            <img src="images/bannerper7.png" class="bannerper" />
+                            <img src="images/bannertext7.png" class="bannertext" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <img src="images/icon_1.png" class="icon_1" />
+
+            <img src="images/down.png" class="bottom_arrow" />
+
+        </div>
+
+        <div class="wrap2 auto">
+
+            <img src="images/index_logo.png" class="index_logo" />
+
+            <img src="images/menu_btn.png" class="menu_btn animated" />
+            
+            <div class="dragwarp auto" id="wrap2">
+
+                <div class="wrap2_main1 auto"><!--首页-->
+
+                    <img src="images/music.gif" class="music">
+            
+                    <div class="indexbg auto">
+                    </div>
+
+                    <div class="headpic auto">
+                        <img src="images/headpic.jpg" class="scale" />
+                    </div>
+
+                    <div class="titword auto" id="titword">
+                        <img src="images/index_titbg.png" class="index_titbg" data-ani="blink" data-time="2000">
+                        <img src="images/index_tit.png" class="index_tit" data-ani="fadeInUp" data-time="100" />
+                        <img src="images/index_word1.png" class="index_word1" data-ani="fadeIn" data-time="2000" />
+                        <img src="images/index_word2.png" class="index_word2" data-ani="fadeIn" data-time="2000" />
+                    </div>
+                    <img src="images/index_btn1.png" class="index_btn1" data-ani="fadeIn" data-time="3000" />
+
+                    <!-- <div id="test" style="position: absolute;bottom: 50px;left: 50px;font-size: 1.4rem;color: #fff;z-index: 9999;width: 300px;height: 3rem;"></div> -->
+
+                </div>
+
+                <div class="black"></div>
+
+                <!-- <div class="hdxq xgtk auto" style="display:none;">相关条款
+                    <img src="images/close.png" class="closesub closesub2" />
+                    <img src="images/text_3.png" />
+                </div> -->
+
+                <div class="photoshow cut_rus auto" style="display: none;"><!--裁剪结果页-->
+                    <img src="images/music.gif" class="music">
+                    <div class="photoshowtop auto">
+                        <div class="photosidebar auto">
+                            <img src="images/upload_btn2.png" class="rus_upload2" />
+                        </div>  
+                        <span>长按图片保存你的海报</span>
+                        <img src="images/loading_pic1.jpg">
+                        <p>你是第999个上传海报的人,邀请好友一起加入吧！</p>
+                    </div>
+                    <div class="photoshowbtn auto">
+                        <img src="images/photo_btn1.png" class="photo_btn1" />
+                        <img src="images/photo_btn2.png" class="photo_btn2" />
+                        <img src="images/photo_btn3.png" class="photo_btn3" />
+                    </div>
+                </div>
+
+                <div class="photoshow fr_show auto" style="display: none;"><!--好友看到的-->
+                    <div class="photoshowtop auto">
+                        <span>&nbsp;&nbsp;&nbsp;</span>
+                        <img src="images/loading_pic1.jpg">
+                        <p>和好友分享你的“征服”态度！</p>
+                    </div>
+                    <div class="photoshowbtn fr_show_btn auto">
+                        <img src="images/fr_btn.png" class="fr_btn" />
+                    </div>
+                </div>
+
+                <div class="fenxiang auto" style="display: none;"><!--分享-->
+                    <img src="images/fx.png" class="fximg" />
+                    <div class="photoshowbtn auto">
+                        <img src="images/photo_btn4.png" class="photo_btn4" />
+                    </div>
+                </div>
+                
+                <div class="hdxq result-pop-play" style="display: none;"><!--视频-->
+                    <img src="images/close.png" class="closesub closesub4" />
+                    <div class="result-pop-all">    
+                        <div class="result-pop-video">
+                            <video id="diveoID" controls preload="auto" poster="images/video_pic.jpg" src="images/shipin.mp4">
+                            </video>
+                        </div>
+                        <div class="result-pop-word">
+                            <p>温馨提示：请在WiFi环境下观看</p>
+                        </div>            
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="wrap2_photo auto" style="display:none;"><!--裁剪图片-->
+                
+                <div class="photobox auto">
+                    <div class="photosidebar auto">
+                        <img src="images/upload_btn2.png" class="btn_upload2" />
+                        <img src="images/btn_white2.png" class="btn_white" />
+                        <img src="images/btn_black.png" class="btn_black" />
+                    </div>                    
+                    <div class="cutting-img-editor">
+                        <img id="imgEdit" class="imgEdit" src="images/uploadimg.jpg"><!--用户上传的图片-->
+                        <div class="cutting-tit">
+                            <img src="images/tit_white.png" class="tit_white" />
+                            <img src="images/tit_black.png" class="tit_black" style="display:none;" />
+                        </div>
+                        <div class="cutting-cent-footer" style="display:none;">
+                            <img src="images/line.png">
+                        </div>
+                    </div>
+                </div>
+                
+                <img src="images/upload_btn3.png" class="photo_btn" />
+
+            </div>
+
+
+            <div class="hdxq ewm auto" style="display: none;"><!--成功制作海报-->
+                <img src="images/close.png" class="closesub closesub3" />
+                <div class="ewmbox auto">
+                    <div class="ewmtit ewmtit1 auto">
+                        <img src="images/ewm_tit1.png" />
+                    </div>
+                    <div class="ewmtit ewmtit2 auto" style="display: none;">
+                        <img src="images/ewm_tit2.png" />
+                    </div>
+                    <div class="ewmtit ewmtit3 auto" style="display: none;">
+                        <img src="images/ewm_tit3.png" />
+                    </div>
+                    <div class="ewmtit ewmtit4 auto" style="display: none;">
+                        <img src="images/ewm_tit4.png" />
+                    </div>
+                    <div class="ewmtext1 ewm_text1 auto">
+                        24小时后回到页面，海报审核通过，即可领取<b>5元电子书券</b>
+                        <span>（回复【DY】至亚马逊Kindle服务号，可订阅提醒）</span>
+                    </div>
+                    <div class="ewmtext1 ewm_text2 auto" style="display: none;">
+                        获得5元电子书券<br />
+                        <span>（可长按复制，建议截图保存）</span>
+                    </div>
+                    <div class="ewmtext1 ewm_text3 auto" style="display: none;">
+                        很遗憾，海报未通过审核<br />
+                        建议<a href="javascript:;" class="fail_upload">重新上传</a>
+                    </div>
+                    <div class="ewmtext1 ewm_text4 auto" style="display: none;">
+                        正在审核中<br />
+                        作品将在24小时内进行人工审核，审核通过后，回到页面可领取5元电子书券
+                    </div>
+                    <div class="mesbox auto">
+                        <div class="ewmtext2 auto">
+                            留下您的联系方式，还有机会抽奖赢取Kindle Oasis电子书阅读器或50元电子书券
+                        </div>                        
+                        <div class="mes auto">
+                            <form>
+                                <input type="text" placeholder="姓名" class="input_name"></input>
+                                <input type="text" placeholder="电话" class="input_tel"></input>
+                                <img src="images/ewm_sub.png" class="ewm_sub" />
+                            </form>
+                        </div>
+                        <div class="ewmimg auto">
+                            <img src="images/ewm_img1.png" />
+                        </div>
+                    </div>
+                    <div class="ewmbig auto" style="display: none;">
+                        <img src="images/ewm_img2.jpg" />
+                        <p>
+                            关注亚马逊Kindle服务号<br />
+                            了解更多阅读相关的精彩内容
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro pro1 auto" style="opacity: 0;z-index: -1;"><!--产品-->
+                <div class="proimg">
+                    <div class="main_visual main_visual1">
+                        <div class="flicking_con flicking_con1">
+                            <a href="#" class="on"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <div class="main_image main_image1">
+                        <img src="images/probg.png" class="prozw">
+                            <ul>
+                                <li>
+                                    <img src="images/s1.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s2.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s3.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s4.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s5.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s6.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s7.png" />
+                                </li>
+                            </ul>
+                            <a href="javascript:;" id="btn_prev" style="display: none;"></a>
+                            <a href="javascript:;" id="btn_next" style="display: none;"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="protext auto">
+                    <img src="images/pro_text.png" />
+                </div>
+                <div class="prosub auto">
+                    <img src="images/pro_sub.png" />
+                </div>
+            </div>
+
+            <div class="pro pro2 auto" style="opacity: 0;z-index: -1;"><!-- 产品 -->
+                <div class="proimg">
+                    <div class="main_visual main_visual2">
+                        <div class="flicking_con flicking_con2">
+                            <a href="#" class="on"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <div class="main_image main_image2">
+                        <img src="images/probg.png" class="prozw">
+                            <ul>
+                                <li>
+                                    <img src="images/s1.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s2.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s3.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s4.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s5.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s6.png" />
+                                </li>
+                                <li>
+                                    <img src="images/s7.png" />
+                                </li>
+                            </ul>
+                            <a href="javascript:;" id="btn_prev2" style="display: none;"></a>
+                            <a href="javascript:;" id="btn_next2" style="display: none;"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="protext auto">
+                    <img src="images/pro_text.png" />
+                </div>
+                <div class="prosub auto">
+                    <img src="images/pro_sub.png" />
+                </div>
+            </div>
+
+            <div class="piclist auto" style="z-index: -1;"><!--作品列表-->
+                <div class="result-top">
+                    <div class="result-top-pic">  
+                        <img src="images/video_pic.jpg" class="zpbanner">
+                        <!-- <div class="restoppic" id="sprite2">
+                        </div> -->
+                        <div class="result-top-play">
+                            <img class="play" src="images/play.png">
+                            <div class="result-top-play-word">
+                                <img src="images/word.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-center-word">
+                    <img src="images/word_2.png" class="zptit">
+                </div>
+                <div id="container">
+                    <ul class="col" id="listli">
+                        <li><img src="images/1.jpg"/><p><img src="images/headpic.jpg" /><span><span>微信名字</span></span></p></li>
+                        <li><img src="images/2.jpg"/><p><img src="images/headpic.jpg" /><span><span>微信名字</span></span></p></li>
+                    </ul>
+                    <div class="loadgif"><img src="images/load.gif" class="loadgifimg"></div>
+                </div>
+                <div class="black" id="piclistblack"></div>
+            </div>
+
+            <div class="alertbox auto" style="z-index: -1;">
+                <img src="images/close.png" class="closesub closesub5" />
+                <div class="alimgbox auto" id="alimgbox">
+                    <div class="alimgsub auto"><img src="images/subleft.png" id="subleft"></div>
+                    <div class="alimgscro auto">
+                        <img src="images/1.jpg" />
+                        <ul id="alimgscro">
+                            <li><img src="images/1.jpg" /><p><img src="images/headpic.jpg" /><span><span>微信名字</span></span></p></li>
+                            <li><img src="images/2.jpg" /><p><img src="images/headpic.jpg" /><span><span>微信名字</span></span></p></li>
+                        </ul>
+                    </div>
+                    <div class="alimgsub alimgsubright auto"><img src="images/subright.png" id="subright"></div>
+                </div>
+            </div>
+
+            <div class="wrap2_upload auto" style="display:none;"><!--上传图片-->
+                
+                <div class="upload auto">
+                    <img src="images/tit_white.png" class="upload_tit" />
+                    <img src="images/upload_btn.png" class="upload_btn" />
+                </div>
+
+                <p>点击上传照片即视作您同意<span class="xgtksub">活动的相关条款</span></p>
+
+            </div>
+
+            <div class="hdxq hdxqbox auto" style="display:none;"><!--活动详情-->
+                <img src="images/close.png" class="closesub closesub1" />
+                <div class="hdxqtext auto">
+                    <img src="images/text_1.png" />
+                    <p>
+                    <b>活动介绍：</b><br />
+                    内在升华，外在优雅，让我们越读越美。<br />
+                    征服你，不只靠外表！<br /><br />
+
+                    参与活动，上传你的征服态度。<br /><br />
+
+                    <b>活动时间：</b><br />
+                    即日起至2016年5月8日<br /><br />
+
+                    <b>参与方式：</b><br />
+                    制作并上传海报 “征服你，不只靠外表”主题海报<br /><br />
+
+                    <b>奖励机制：</b><br />
+                    奖励一：成功制作并上传主题海报的用户，即可获得5元电子书券1张（每位用户只能获得1张电子书券，且每个亚马逊账户仅能充值1张书券）。<br />
+                    奖励二（以下奖励不可同时享有）：<br />
+                    1、活动结束后，亚马逊中国将从参与活动的用户中，挑选10张海报，被选中海报的用户将获得<b>50元电子书券1张</b>；<br />
+                    2、活动结束后，亚马逊中国将从参与活动的用户中，挑选3张最具态度的海报，被选中海报的用户将获得<b>Kindle Oasis 1台</b>。<br /><br />
+
+                    <b>领奖须知：</b><br />
+                    1、活动结束后，用户可在亚马逊Kindle服务号中查看获奖名单。<br />
+                    2、活动奖品将于主办方确认领奖事宜后2个月内通过快递寄出；用户确认领奖2个月内，如未向主办方声明奖品获得情况，则视为奖品已获得，奖品逾期不补。<br />
+                    3、如因获奖者提供个人信息不全或者有误（包括真实姓名、身份证号码、邮寄地址、邮政编码及联系电话等），导致奖品无法递达，主办方不为此承担任何责任。<br />
+                    4、本活动奖项一经确认不得转换、转让或折换现金。奖品归给以实物为准。<br /><br />
+                    </p>
+                    <img src="images/text_2.png" />
+                    <p>
+                    1、本次活动的主办方为亚马逊中国（统一简称“主办方”）。<br />
+                    2、用户在参加本网站的活动时，主办方将在您的同意和确认下，要求您提供一些个人资料，如：您的姓名、手机等。主办方在未经您同意的情况下，绝对不会将您的任何资料以任何方式泄漏给第三方。本网站也将对您的资料进行严格的管理及保护，本网站将使用相应的技术，防止您的个人资料丢失、被盗用或遭篡改。<br />
+                    3、用户在参加本网站的活动时，主办方将默认您已经默认放弃在此次活动中上传的作品的著作权和肖像权，主办方将有权使用该作品用于其他形式的网络宣传。<br />
+                    4、用户参与本活动过程中，使用任何方式或方法试图攻击活动平台相关服务器、路由器、交换机以及其他设备，以达到非法获得或修改未经授权的数据资料、虚拟奖品以及其他影响活动正常进行的任何行为，一经发现，主办方有权在不事先通知的前提下取消其参与活动及获奖资格。<br />
+                    5、主办方不对因网络传输等原因而导致参加者提交的信息错误承担任何责任。<br />
+                    6、活动主办方对本次活动拥有最终解释权。如遇不可抗力因素，本活动因故无法进行时，主办方在法律允许的范围内有权决定取消、终止、修改或暂停本活动。<br />
+                    7、本次活动将适用主办方对隐私权保护的政策。详情请参看： <a href="http://www.amazon.cn/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=200347130" target="blank">http://www.amazon.cn/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=200347130</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="hdxq xgtk auto" style="display:none;"><!--相关条款-->
+                <img src="images/close.png" class="closesub closesub2" />
+                <div class="hdxqtext auto">
+                    <img src="images/text_3.png" />
+                    <p>
+                    1）用户参加本活动即视为授权活动主办方在于本活动相关的广告和宣传中无偿使用用户的名字、肖像和任何其他有其本人提供的个人信息，而无需再另行征求确认。<br />
+                    2）用户上传的作品须为用户本人独立创作而成，用户本人对其拥有完全的著作权等相关知识产权和其他一切权利，不侵犯任何第三方的合法权益相关知识产权和其他一切权利，不侵犯任何第三方的合法权利。上传作品不应涉及任何私人资料、机密资料，他人隐私资料或侵犯任何人的专利、商标、著作权、商业秘密或其他专属权利等内容。<br />
+                    3）用户上传的作品不得涉及任何第三方商标/品牌，侵权内容，政治敏感性话题，含种族歧视，暴力倾向内容或违背中国法律法规及公序良俗。若发生由上传作品内容引起的法律责任，将由用户本人自行承担。<br />
+                    4）用户将作品及任何言论分享到“人人网”、“新浪微博”、“腾讯微博”或其他任何展示途径，都仅代表作者本人观点，并不代表活动主办方立场。<br />
+                    5）主办方不对因网络传输原因而导致用户提交的信息错误或延误承担任何责任。<br />
+                    6）如果发现有用户使用任何不正当手段参加活动，包括但不限于以下情况，主办方有权在不事先通知的前提下取消其参加活动的资格：<br />
+                    a.任何有违本活动目的和宗旨；<br />
+                    b.不遵守本活动规则参与活动<br />
+                    c.违反职业操守、相关公司政策、社会公序良俗和道德规范以及法律法规；<br />
+                    d.影响活动正常有序进行；<br />
+                    e.损害活动主办方及相关实体的合法权益和声誉；<br />
+                    f.在活动参与过程中提供非真实的数据或信息；<br />
+                    g.活动主办方认为的其他不正当手段或情形。<br />
+                    7）用户若对本活动有任何疑问，请联络@亚马逊Kindle服务号。
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="sidebar auto">
+            <div class="sidepic auto">
+                <img src="images/headpic.jpg" class="sidepic" />
+            </div>
+            <div class="sidenav auto">
+                <ul>
+                    <li class="sidebarsub1"><img src="images/sidenav_1.png" /></li>
+                    <li class="sidebarsub2"><img src="images/sidenav_2.png" /></li>
+                    <li class="sidebarsub3"><img src="images/sidenav_3.png" /></li>
+                    <li class="sidebarsub4"><img src="images/sidenav_4.png" /></li>
+                    <li class="sidebarsub5"><img src="images/sidenav_5.png" /></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    
+    <div class="weui_toast" id="loadingtip">
+        <div class="loading4box">
+            <img src="images/loading4.gif">
+            <p class="weui_toast_content">数据加载中</p>
+        </div>
+    </div>
+    
+
+    <div id="loadimg"></div>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.event.drag-1.5.min.js"></script>
+    <script src="js/jquery.touchSlider.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/film.js"></script>
+    <script src="js/eub.js"></script>
+    <script src="js/jquery.hashchange.js"></script>
+    <script src="js/kindle.js"></script>
+    <script src="js/loading.js"></script>
+</body>
+</html>
