@@ -1,0 +1,197 @@
+body,html{margin:0; padding:0; font-family:"微软雅黑"}
+body,div,ul,li,span,p,input,table,tr,td,h1,h2,h3,h4,h5,h6,article{margin:0; padding:0;}
+ul,li{ list-style:none;}
+img{ border:none; max-width:100%;}
+a{ text-decoration:none;}
+body,html{
+	max-width:640px;
+    width: 100%;
+    height: 100%;
+	margin:0 auto;
+	overflow:hidden;
+    font-size: 18px;
+    background: url(images/kindle_bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+b{font-weight: normal;}
+i{font-style: normal;}
+/*清除浮动*/
+.clearfix:after{content:"\200B"; display:block; height:0; clear:both; }
+.clearfix{ *zoom:1; }
+[tag-name] {
+    opacity: 0;
+}
+.box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+}
+.boxHorizontal{
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -ms-flex-direction: row;
+    -o-box-orient: horizontal;
+    box-orient: horizontal;
+    /*设置弹性盒模型对象的子元素为横向（水平）排列*/
+}
+.boxVertical{
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    /*设置弹性盒模型对象的子元素为纵向（垂直）排列*/
+}
+
+/*设置或检索弹性盒模型对象的子元素如何分配其剩余空间。*/
+.boxFlex1{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+}
+.boxFlex2{
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -ms-flex: 2;
+    -o-box-flex: 2;
+    box-flex: 2;
+}
+.eub_boxPackCenter{
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-box-pack: center;
+    box-pack: center;
+    /*设置弹性盒模型对象的子元素居中对齐 */
+}
+/*end 颜色*/
+.sizing-border{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    /*padding和border被包含在定义的width和height之内。对象的实际宽度就等于设置的width值，即使定义有border和padding也不会改变对象的实际宽度*/
+}
+header{
+    width:100%;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 3%;
+}
+header img:nth-child(1){
+    width: 24.5%;
+}
+.cent_top {
+    font-size: 1.2em;
+    padding-top: 4%;
+}
+.cent_top h2{
+    width: 1em;
+    margin-left: 2%;
+    line-height: 1.1em;
+    font-size: 1.3em;
+}
+.cent_top h2 span{
+    display: block;
+}
+.cent_top h2 img{
+    display: block;
+    width: 100%;
+}
+.cent_top p{
+    width: 1em;
+    line-height: 1.1em;
+    margin-left: 2%;
+    vertical-align: top;
+}
+.cent_top p i{
+    display: block;
+    width: 1px;
+    height: 1em;
+
+    margin:2px auto;
+    background:#000;
+}
+.cent_cent{
+    padding-bottom: 5%;
+}
+.cent_cent img{
+    display: block;
+    margin:0 auto;
+    width: 20.5%;
+    /*margin-top: 3%;*/
+    /*margin-bottom: 5%;*/
+}
+.erw{
+    width: 42%;
+    margin: 0 auto;
+    border: 1px solid #d3d2d2;
+}
+.footer{
+    text-align: center;
+    margin-top: 3%;
+    font-weight: bold;
+    padding-bottom: 14%;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes opa {
+  0% {
+    pacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opa {
+  0% {
+    opacity: 0;
+    
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.opa {
+  -webkit-animation-name: opa;
+          animation-name: opa;
+}
+@-webkit-keyframes opas {
+  0% {
+    pacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes opas {
+  0% {
+    opacity: 1;
+    
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.opas {
+  -webkit-animation-name: opas;
+          animation-name: opas;
+}
