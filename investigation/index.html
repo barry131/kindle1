@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>微信服务响应速度调查问卷</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="css/sty.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css"   media="screen and (min-width: 321px) and (max-width: 480px)" href="css/sty480.css">
+<link rel="stylesheet" media="screen and (max-width: 320px)" href="css/sty320.css" />
+</head>
+
+<body class="box boxVertical">
+    <div class="content">
+        <div class="top">
+            <img src="images/logo.jpg"/>
+            <div class="word">
+                <h2>亚马逊Kindle 微信服务问卷调查</h2>
+                <span>亲爱的客户，您好！亚马逊Kindle微信服务已经上线有一段时间啦！不知道亲爱的您是否有体验过我们的服务呢？</span>
+            </div>
+        </div>
+        <div class="top2">
+            <p>我们诚邀您在百忙之中抽出不到1分钟时间评价亚马逊Kindle 微信服务问卷调查；您的评价将是我们日后改善的重要支持和帮助。</p>
+        </div>
+        <form id="form_login" action="" method="post">
+                <div id="select"></div><br>
+                <div class="select">
+                    <p class="p1">1.请问当您联系我们的时候，期望在多长时间之内看到客服的回应呢？<i>*</i></p>
+                    <p class="p1_2 bounce" style="display:none;">1.请问当您联系我们的时候，期望在多长时间之内看到客服的回应呢？*</p>
+                    <div class="time">
+                        <input id="radio1" type="radio" name="Time" value="1"><label for="radio1"><span><span></span></span></label><label for="radio1"><p>30分钟以内</p></label><br>
+
+                        <input id="radio2" type="radio" name="Time" value="2"><label for="radio2"><span><span></span></span></label><label for="radio2"><p>10分钟以内</p></label><br>
+
+                        <input id="radio3" type="radio" name="Time" value="3"><label for="radio3"><span><span></span></span></label><label for="radio3"><p>2分钟以内</p></label><br>
+                        
+                        <input id="radio4" type="radio" name="Time" value="4"><label for="radio4"><span><span></span></span></label><label for="radio4"><p>30秒以内</p></label><br>
+                        <!-- <input id="radio1" type="radio" name="Time" value="1" checked="checked"><label for="radio1"></label>30分钟以内<br>
+                        <input id="radio2" type="radio" name="Time" value="2"><label for="radio2"></label>10分钟以内<br>
+                        <input id="radio3" type="radio" name="Time" value="3"><label for="radio3"></label>2分钟以内<br>
+                        <input id="radio4" type="radio" name="Time" value="4"><label for="radio4"></label>2分钟以内<br> -->
+                        <!-- <input name="Time" type="radio" class="aa" value="1" />30分钟以内<br>
+                        <input name="Time" type="radio" class="aa" value="2" />10分钟以内<br>
+                        <input name="Time" type="radio" class="aa" value="3" />2分钟以内<br>
+                        <input name="Time" type="radio" class="aa" value="4" />30秒以内<br> -->
+                    </div> 
+                </div>
+                <div id="select2"></div><br>
+                <div class="select2">
+                    <p class="p2">2.您认为我们的服务有哪些方面存在不足，需要改善？ <i>*</i>【可以多项选择】</p>
+                    <p class="p2_2 bounce" style="display:none;">2.您认为我们的服务有哪些方面存在不足，需要改善？*【可以多项选择】</p>
+                    <div class="serve"> 
+                        <input type="checkbox" name="Serve" value="5" id="checkbox_a1" class="chk_1"/><label for="checkbox_a1"></label><label for="checkbox_a1"><p>给多点促销好不好</p></label><br>   
+
+                        <input type="checkbox" name="Serve" value="6" id="checkbox_a2" class="chk_1" /><label for="checkbox_a2"></label><label for="checkbox_a2"><p>讲话太冷冰冰啦</p></label><br>  
+
+                        <input type="checkbox" name="Serve" value="7" id="checkbox_a3" class="chk_1" /><label for="checkbox_a3"></label><label for="checkbox_a3"><p>晚上看书的时候有问题咨询你们，但是没有回复</p></label><br>  
+
+                        <input type="checkbox" name="Serve" value="8" id="checkbox_a4" class="chk_1" /><label for="checkbox_a4"></label><label for="checkbox_a4"><p>回应比较慢</p></label><br>  
+
+                        <input type="checkbox" name="Serve" value="9" id="checkbox_a5" class="chk_1" /><label for="checkbox_a5"></label><label for="checkbox_a5"><p>态度好有什么用？我的问题都解决不了</p></label><br>                                           
+                       <!--  <label><input name="Serve" type="checkbox" class="bb" value="5" />给多点促销好不好</label><br> 
+                        <label><input name="Serve" type="checkbox" class="bb" value="6" />讲话太冷冰冰啦</label><br>  
+                        <label><input name="Serve" type="checkbox" class="bb" value="7 " />晚上看书的时候有问题咨询你们，但是没有回复</label><br>  
+                        <label><input name="Serve" type="checkbox" class="bb" value="8" />回应比较慢</label><br>  
+                        <label><input name="Serve" type="checkbox" class="bb" value="9" />态度好有什么用？我的问题都解决不了</label><br> -->  
+                        <span>其他建议说明：</span><br>
+                        <div class="write">
+                            <textarea name="Serve" placeholder="请输入..." id="textarea" value="10"></textarea>
+                        </div>
+                    </div> 
+                </div>
+                <div id="select3"></div><br>
+                <div class="select3">
+                    <p class="p3">3.请问您一般习惯什么时候使用微信联系我们？ <i>*</i>【可以多项选择】</p>
+                    <p class="p3_2 bounce" style="display:none;">3.请问您一般习惯什么时候使用微信联系我们？*【可以多项选择】</p>
+                    <div class="wei"> 
+                        <input type="checkbox" name="Times" value="11" id="checkbox_a6" class="chk_1" /><label for="checkbox_a6"></label><label for="checkbox_a6"><p>上午9：00-11：00</p></label><br>
+
+                        <input type="checkbox" name="Times" value="12" id="checkbox_a7" class="chk_1" /><label for="checkbox_a7"></label><label for="checkbox_a7"><p>中午到下午12：00-18：00</p></label><br>
+
+                        <input type="checkbox" name="Times" value="13" id="checkbox_a8" class="chk_1" /><label for="checkbox_a8"></label><label for="checkbox_a8"><p>傍晚18：00-20：00</p></label><br>
+
+                        <input type="checkbox" name="Times" value="14" id="checkbox_a9" class="chk_1" /><label for="checkbox_a9"></label><label for="checkbox_a9"><p>夜晚20：00-24：00</p></label><br>
+
+                        <input type="checkbox" name="Times" value="15" id="checkbox_a10" class="chk_1" /><label for="checkbox_a10"></label><label for="checkbox_a10"><p>任何时候</p></label><br>
+                        <!-- <label><input name="Times" type="checkbox" class="cc" value="11" />上午9：00-11：00 </label><br> 
+                        <label><input name="Times" type="checkbox" class="cc" value="12" />中午到下午12：00-18：00</label><br>  
+                        <label><input name="Times" type="checkbox" class="cc" value="13" />傍晚18：00-20：00</label><br>  
+                        <label><input name="Times" type="checkbox" class="cc" value="14" />夜晚20：00-24：00</label><br>  
+                        <label><input name="Times" type="checkbox" class="cc" value="15" />任何时候</label><br> -->  
+                    </div> 
+                </div>
+            <div><p class="words">衷心感谢您的配合与支持！</p></div>
+            <div class="button">
+                <a href="javascript:void(0)">提交</a>
+            </div>
+        </form>
+    </div>
+    <!-- pop-up -->
+    <div class="pop-up">
+        <div class="pop-cent">
+            <div class="org">
+                <img class="close" src="images/close.png"/>
+            </div>
+            <h2>提交成功</h2>
+            <p>再次感谢您的配合与支持！</p>
+        </div>
+    </div>
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.form.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/eub.js"></script>
+<script type="text/javascript" src="js/kindle.js"></script>
+</body>
+</html>

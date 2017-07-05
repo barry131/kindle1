@@ -1,0 +1,335 @@
+body,html{margin:0; padding:0; font-family:"微软雅黑"}
+body,div,ul,li,span,p,input,table,tr,td,h1,h2,h3,h4,h5,h6,article{margin:0; padding:0;}
+ul,li{ list-style:none;}
+img{ border:none; max-width:100%;}
+a{ text-decoration:none;}
+body,html{
+	max-width:640px;
+    width: 100%;
+    height:auto;
+	margin:0 auto;
+	overflow:auto;
+    font-size: 18px;
+    background: #FFFCF7;
+}
+
+b{font-weight: normal;}
+i{font-style: normal;}
+/*清除浮动*/
+.clearfix:after{content:"\200B"; display:block; height:0; clear:both; }
+.clearfix{ *zoom:1; }
+
+.box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+}
+.boxHorizontal{
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -ms-flex-direction: row;
+    -o-box-orient: horizontal;
+    box-orient: horizontal;
+    /*设置弹性盒模型对象的子元素为横向（水平）排列*/
+}
+.boxVertical{
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    /*设置弹性盒模型对象的子元素为纵向（垂直）排列*/
+}
+
+/*设置或检索弹性盒模型对象的子元素如何分配其剩余空间。*/
+.boxFlex1{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+}
+.boxFlex2{
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -ms-flex: 2;
+    -o-box-flex: 2;
+    box-flex: 2;
+}
+/*end 颜色*/
+.sizing-border{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    /*padding和border被包含在定义的width和height之内。对象的实际宽度就等于设置的width值，即使定义有border和padding也不会改变对象的实际宽度*/
+}
+.content{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: scroll;
+}
+/*顶部*/
+.top{
+    background: #FFFCF7;
+    color: #000;
+    width: 100%;
+    margin: 0 auto;
+}
+.top img{
+    width: 23%;
+    margin: 3% 3%;
+}
+.top .word{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
+.top .word h2{
+    font-size: 1.4em;
+    margin-bottom: 4%;
+    text-align: center;  
+}
+.top2{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-bottom: 1px solid #696661;
+    padding-bottom: 3%;
+}
+.top2 p{
+    color: #877768;
+}
+
+.select{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 3%;
+}
+.p1{
+    color: #000;
+}
+.p1_2{
+    color: #ff9a66;
+}
+.p2{
+    color: #000;
+}
+.p2_2{
+    color: #ff9a66;
+}
+.p3{
+    color: #000;
+}
+.p3_2{
+    color: #ff9a66;
+}
+.select i{
+    color: #f90505;
+}
+.select .time{
+    display: block;
+    width: 80%;
+    margin-left: 16.5%;
+    margin-top: 3%;
+    line-height: 2.5em;
+}
+.select2{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 3%;
+}
+.select2 i{
+    color: #f90505;
+}
+
+.select2 .serve{
+    display: block;
+    width: 80%;
+    margin-left: 13%;
+    margin-top: 3%;
+    line-height: 2.5em;
+}
+.select2 .write{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: -4%;
+}
+.select2 .write textarea{
+    width: 90%;
+    height: 80px;
+    border: 1px solid #FF9A66;
+    margin: 0 auto;
+}
+.select3{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 3%;
+}
+.select3 i{
+    color: #f90505;
+}
+.select3 .wei{
+    display: block;
+    width: 80%;
+    margin-left: 13%;
+    margin-top: 3%;
+    line-height: 2.5em;
+}
+.words{
+    width: 100%;
+    text-align:center;
+    margin-top: 3%;
+}
+.button{
+    width: 99%;
+    margin: 0 auto;
+    border: 1px solid #ff9a66;
+    background: #ff9a66;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.button a{
+    text-align: center;
+    color: #ffffff;
+    display: block;
+}
+.pop-up{
+    background: rgba(0, 0, 0, 0.46);
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    display:none;
+}
+.pop-cent{
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    background: #ffffff;
+    margin-top: 50%;
+    border: 3px solid #ff9a66;
+}
+.pop-cent img{
+    float: right;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+.pop-cent h2{
+    text-align: center;
+    margin-top: 12%;  
+    font-weight: 400; 
+}
+.pop-cent p{
+    text-align: center;
+    margin-top: 2%; 
+}
+.org{
+    width: 100%;
+    height: 17%;
+    background: #ff9a66;
+}
+
+/*input中checkbox颜色*/
+.chk_1{
+    display: none;
+}
+.chk_1 + label {
+    background-color: #FFF;
+    border: 1px solid #FF9A66;
+    padding: 9px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    margin-right: 3%;
+}
+.chk_1 + label:active {
+}
+
+.chk_1:checked + label {
+    background-color: #FF9A66;
+    border: 1px solid #FF9A66;
+    color: #243441;
+}
+
+.chk_1:checked + label:after {
+    content: '\2714';
+    position: absolute;
+    top: -36%;
+    left: 0px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+}
+.chk_1:checked + label:before {
+    display: none;
+}
+
+/*input中radio颜色*/
+
+input[type=radio   ]:not(old){
+    width: 2em;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    opacity: 0;
+}
+input[type=radio   ]:not(old) + label{
+    display: inline-block;
+    margin-left: -10%;
+    padding-right: 3%;
+}
+input[type=radio   ]:not(old) + label > span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #FF9A66;;
+    border-radius: 40px;
+    background:#fff; 
+}
+
+input[type=radio]:not(old):checked +  label > span > span{
+    display: block;
+    width: 4px;
+    height: 4px;
+    margin: 3px 3px;
+    border: 1px solid #FF9A66;
+    border-radius:40px;
+    background: #FF9A66;
+    text-align: center;
+    background-image:    -moz-linear-gradient(#FF9A66);
+    background-image:     -ms-linear-gradient(#FF9A66);
+    background-image:      -o-linear-gradient(#FF9A66));
+    background-image: -webkit-linear-gradient(#FF9A66);
+    background-image:         linear-gradient(#FF9A66);
+}
+.time p{
+    display: inline-block;
+    position: absolute;
+    margin-top: -0.5%;
+}
+.serve p{
+    display: inline-block;
+    position: absolute;
+    margin-top: -1%;
+    font-size: 0.9em;
+}
+.wei p{
+    display: inline-block;
+    position: absolute;
+    margin-top: -2%;
+}
+
+
+
+
+
